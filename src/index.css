@@ -1,0 +1,348 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.theme-default {
+  --primary-color: 54.66% 0.202 258.31;
+  --secondary-color: 60% 0 0;
+  --dark-color: 29% 0 0;
+  --gray-color: 97.7% 0 0;
+  --white-color: 99% 0 0;
+  --bg-color: var(--white-color);
+  --muted-color: 51% 0 0;
+  --text-color: var(--dark-color);
+  --fill: 40% 0 0;
+  --fill-bg: var(--gray-color);
+  --link-color: var(--dark-color);
+  --link-color-hover: 42% 0.01 235.09;
+  --btn-bg: var(--primary-color);
+  --btn-bg-hover: 58% 0.202 258.31;
+
+  --primary-btn-outline-color: var(--primary-color);
+  --primary-btn-outline-bg: var(--white-color);
+  --primary-btn-outline-border: var(--primary-color);
+
+  --btn-color: var(--white-color);
+  --marked-bg: var(--gray-color);
+  --marked-color: var(--dark-color);
+
+  /* Primary colors */
+  --primary-border-color: 80% 0 0;
+  --primary-border-text: var(--text-color);
+  --primary-border-text-hover: var(--link-color-hover);
+  --primary-border-btn: var(--primary-color);
+  --primary-border-marked: var(--primary-color);
+  --primary-gradient: var(--gray-color);
+  --primary-gradient-text: var(--primary-color);
+
+  /* Secondary colors */
+  --secondary-bg-color: var(--white-color);
+  --secondary-bg-card: var(--white-color);
+  --secondary-bg-card-marked: var(--secondary-color);
+  --secondary-card-text: var(--text-color);
+  --secondary-card-title: var(--white-color);
+  --secondary-bg-card-2: var(--white-color);
+  --secondary-bg-card-2-marked: var(--secondary-color);
+  --secondary-card-2-text: var(--text-color);
+  --secondary-card-2-title: var(--white-color);
+  --secondary-text-color: var(--dark-color);
+  --secondary-muted-color: var(--muted-color);
+  --secondary-bg-marked: var(--gray-color);
+  --secondary-marked-color: var(--dark-color);
+  --secondary-link-color: var(--dark-color);
+  --secondary-link-color-hover: 42% 0.01 235.09;
+  --secondary-btn-bg: var(--primary-color);
+  --secondary-btn-bg-hover: 58% 0.202 258.31;
+  --secondary-btn-color: var(--white-color);
+  --secondary-btn-outline-color: var(--primary-color);
+  --secondary-btn-outline-bg: var(--bg-transparent);
+  --secondary-btn-outline-border: var(--primary-color);
+  --secondary-fill: 40% 0 0;
+  --secondary-gradient-line: var(--muted-color);
+  --secondary-fill-bg: var(--gray-color);
+  --secondary-border-color: 80% 0 0;
+  --secondary-border-text: var(--secondary-text-color);
+  --secondary-border-text-hover: var(--link-color-hover);
+  --secondary-border-btn: var(--primary-color);
+  --secondary-border-marked: var(--primary-color);
+  --secondary-gradient: var(--secondary-color);
+  --secondary-gradient-text: var(--secondary-color);
+
+  /* Tertiary colors */
+  --tertiary-bg-color: var(--white-color);
+  --tertiary-bg-card: var(--primary-color);
+  --tertiary-card-title: var(--secondary-color);
+  --tertiary-card-text: var(--white-color);
+  --tertiary-text-color: var(--dark-color);
+  --tertiary-muted-color: var(--muted-color);
+  --tertiary-bg-marked: var(--gray-color);
+  --tertiary-marked-color: var(--dark-color);
+  --tertiary-link-color: var(--dark-color);
+  --tertiary-link-color-hover: 42% 0.01 235.09;
+  --tertiary-btn-bg: var(--primary-color);
+  --tertiary-btn-bg-hover: 58% 0.202 258.31;
+  --tertiary-btn-outline-color: var(--primary-color);
+  --tertiary-btn-outline-bg: var(--white-color);
+  --tertiary-btn-outline-border: var(--primary-color);
+  --tertiary-btn-color: var(--white-color);
+  --tertiary-fill: 40% 0 0;
+  --tertiary-gradient-line: var(--muted-color);
+  --tertiary-fill-bg: var(--gray-color);
+  --tertiary-border-color: 80% 0 0;
+  --tertiary-border-text: var(--tertiary-text-color);
+  --tertiary-border-text-hover: var(--link-color-hover);
+  --tertiary-border-btn: var(--primary-color);
+  --tertiary-border-marked: var(--primary-color);
+  --tertiary-gradient: var(--secondary-color);
+  --tertiary-gradient-text: var(--secondary-color);
+}
+
+.theme-gold {
+  --primary-color: 56.08% 0.059 70.75;
+  --secondary-color: 95.21% 0 0;
+  --dark-color: 31.71% 0 0;
+  --gray-color: 97.5% 0.01 99;
+  --white-color: 99% 0.004 70.75;
+  --bg-color: var(--white-color);
+  --muted-color: 43% 0 0;
+  --text-color: var(--dark-color);
+  --fill: var(--primary-color);
+  --fill-bg: var(--secondary-color);
+  --link-color: var(--dark-color);
+  --link-color-hover: var(--primary-color);
+  --btn-bg: var(--primary-color);
+  --btn-bg-hover: 64.99% 0.064 71.28;
+  --primary-btn-outline-color: var(--primary-color);
+  --primary-btn-outline-bg: var(--white-color);
+  --primary-btn-outline-border: var(--primary-color);
+  --btn-color: var(--white-color);
+  --marked-bg: var(--secondary-color);
+  --marked-color: var(--primary-color);
+
+  /* Primary colors */
+  --primary-border-color: var(--primary-color);
+  --primary-border-btn: var(--primary-color);
+  --primary-border-text: var(--text-color);
+  --primary-border-text-hover: var(--primary-color);
+  --primary-border-marked: var(--primary-color);
+  --primary-gradient: var(--gray-color);
+  --primary-gradient-text: var(--primary-color);
+
+  /* Secondary colors */
+  --secondary-bg-color: var(--white-color);
+  --secondary-bg-card: var(--primary-color);
+  --secondary-card-title: var(--primary-color);
+  --secondary-card-text: var(--white-color);
+  --secondary-bg-card-marked: var(--secondary-color);
+  --secondary-bg-card-2-marked: var(--primary-color);
+  --secondary-text-color: var(--dark-color);
+  --secondary-muted-color: 40% 0 0;
+  --secondary-bg-marked: var(--secondary-color);
+  --secondary-marked-color: var(--primary-color);
+  --secondary-link-color: var(--dark-color);
+  --secondary-link-color-hover: var(--primary-color);
+  --secondary-btn-bg: var(--primary-color);
+  --secondary-btn-bg-hover: 53.08% 0.059 70.75;
+  --secondary-border-btn: var(--primary-color);
+  --secondary-btn-color: var(--white-color);
+  --secondary-btn-outline-color: var(--primary-color);
+  --secondary-btn-outline-bg: var(--bg-transparent);
+  --secondary-btn-outline-bg-hover: var(--primary-color);
+  --secondary-btn-outline-border: var(--primary-color);
+  --secondary-fill: var(--primary-color);
+  --secondary-gradient-line: var(--primary-color);
+  --secondary-fill-bg: var(--white-color);
+  --secondary-bg-card-2: var(--secondary-color);
+  --secondary-card-2-text: var(--dark-color);
+  --secondary-card-2-title: var(--secondary-color);
+  --secondary-border-color: var(--primary-color);
+  --secondary-border-text: var(--secondary-text-color);
+  --secondary-border-text-hover: var(--link-color-hover);
+  --secondary-border-marked: var(--primary-color);
+  --secondary-gradient: var(--secondary-color);
+  --secondary-gradient-text: var(--secondary-color);
+
+  /* Tertiary colors */
+  --tertiary-bg-color: var(--primary-color);
+  --tertiary-btn-bg: var(--white-color);
+  --tertiary-btn-bg-hover: 96% 0.005 70.75;
+  --tertiary-btn-color: var(--primary-color);
+  --tertiary-btn-outline-color: var(--white-color);
+  --tertiary-btn-outline-bg: var(--primary-color);
+  --tertiary-btn-outline-border: var(--white-color);
+  --tertiary-bg-marked: var(--primary-color);
+  --tertiary-border-color: var(--secondary-color);
+  --tertiary-border-text: var(--secondary-color);
+  --tertiary-border-text-hover: var(--secondary-color);
+  --tertiary-border-btn: var(--white-color);
+  --tertiary-border-marked: var(--secondary-color);
+  --tertiary-fill: var(--secondary-color);
+  --tertiary-fill-bg: var(--primary-color);
+  --tertiary-gradient: var(--dark-color);
+  --tertiary-gradient-line: var(--secondary-color);
+  --tertiary-input: var(--white-color);
+  --tertiary-link-color: var(--white-color);
+  --tertiary-link-color-hover: var(--secondary-color);
+  --tertiary-marked-color: var(--secondary-color);
+  --tertiary-muted-color: 92% 0 0;
+  --tertiary-text-color: var(--white-color);
+}
+
+.theme-Evergreen {
+  --primary-color: 34.47% 0.081 155.31;
+  --secondary-color: 95.02% 0.025 97.12;
+  --dark-color: 31.71% 0 0;
+  --gray-color: 97.87% 0.002 247.84;
+  --white-color: 100% 0 0;
+  --bg-color: var(--white-color);
+  --muted-color: 43% 0 0;
+  --text-color: var(--dark-color);
+  --fill: var(--primary-color);
+  --fill-bg: var(--secondary-color);
+  --link-color: var(--dark-color);
+  --link-color-hover: var(--primary-color);
+  --btn-bg: var(--primary-color);
+  --btn-bg-hover: 95.02% 0.025 97.12;
+  --primary-btn-outline-color: var(--primary-color);
+  --primary-btn-outline-bg: var(--white-color);
+  --primary-btn-outline-border: var(--primary-color);
+  --btn-color: var(--white-color);
+  --marked-bg: var(--secondary-color);
+  --marked-color: var(--primary-color);
+
+  /* Primary colors */
+  --primary-border-color: var(--primary-color);
+  --primary-border-btn: var(--primary-color);
+  --primary-border-text: var(--text-color);
+  --primary-border-text-hover: var(--primary-color);
+  --primary-border-marked: var(--primary-color);
+  --primary-gradient: var(--gray-color);
+  --primary-gradient-text: var(--primary-color);
+
+  /* Secondary colors */
+  --secondary-bg-color: var(--secondary-color);
+  --secondary-bg-card: var(--primary-color);
+  --secondary-card-title: var(--primary-color);
+  --secondary-card-text: var(--white-color);
+  --secondary-bg-card-marked: var(--secondary-color);
+  --secondary-bg-card-2-marked: var(--primary-color);
+  --secondary-text-color: var(--dark-color);
+  --secondary-muted-color: 40% 0 0;
+  --secondary-bg-marked: var(--secondary-color);
+  --secondary-marked-color: var(--primary-color);
+  --secondary-link-color: var(--dark-color);
+  --secondary-link-color-hover: var(--primary-color);
+  --secondary-btn-bg: var(--primary-color);
+  --secondary-btn-bg-hover: 28.47% 0.081 155.31;
+  --secondary-border-btn: var(--primary-color);
+  --secondary-btn-color: var(--secondary-color);
+  --secondary-btn-outline-color: var(--primary-color);
+  --secondary-btn-outline-bg: var(--bg-transparent);
+  --secondary-btn-outline-bg-hover: var(--primary-color);
+  --secondary-btn-outline-border: var(--primary-color);
+  --secondary-fill: var(--primary-color);
+  --secondary-gradient-line: var(--primary-color);
+  --secondary-fill-bg: var(--white-color);
+  --secondary-bg-card-2: var(--secondary-color);
+  --secondary-card-2-text: var(--primary-color);
+  --secondary-card-2-title: var(--white-color);
+  --secondary-border-color: var(--primary-color);
+  --secondary-border-text: var(--secondary-text-color);
+  --secondary-border-text-hover: var(--link-color-hover);
+  --secondary-border-marked: var(--primary-color);
+  --secondary-gradient: var(--secondary-color);
+  --secondary-gradient-text: var(--secondary-color);
+
+  /* Tertiary colors */
+  --tertiary-bg-color: var(--primary-color);
+  --tertiary-btn-bg: var(--secondary-color);
+  --tertiary-btn-bg-hover: 90.02% 0.025 97.12;
+  --tertiary-btn-color: var(--primary-color);
+  --tertiary-btn-outline-color: var(--secondary-color);
+  --tertiary-btn-outline-bg: var(--primary-color);
+  --tertiary-btn-outline-border: var(--secondary-color);
+  --tertiary-bg-marked: var(--primary-color);
+  --tertiary-border-color: var(--secondary-color);
+  --tertiary-border-text: var(--secondary-color);
+  --tertiary-border-text-hover: var(--secondary-color);
+  --tertiary-border-btn: var(--secondary-color);
+  --tertiary-border-marked: var(--secondary-color);
+  --tertiary-fill: var(--secondary-color);
+  --tertiary-fill-bg: var(--primary-color);
+  --tertiary-gradient: var(--dark-color);
+  --tertiary-gradient-line: var(--secondary-color);
+  --tertiary-input: var(--white-color);
+  --tertiary-link-color: var(--secondary-color);
+  --tertiary-link-color-hover: var(--secondary-color);
+  --tertiary-marked-color: var(--secondary-color);
+  --tertiary-muted-color: 96% 0 0;
+  --tertiary-text-color: var(--white-color);
+}
+
+.btn-theme-default {
+  --btn-border-radius: 0;
+}
+
+.btn-theme-rounded {
+  --btn-border-radius: 0.4rem;
+}
+
+.btn-theme-full-rounded {
+  --btn-border-radius: 2rem;
+}
+
+@layer base {
+  .nav-gradient {
+    @apply bg-gradient-to-r from-cyan-50 to-cyan-100;
+  }
+
+  .primary-regular-btn {
+    @apply bg-primary-btn-color text-primary-btn-color hover:bg-primary-btn-hover border-2 border-primary-btn-color;
+  }
+
+  .primary-outline-btn {
+    @apply bg-primary-btn-outline text-primary-btn-outline hover:bg-primary-btn-color hover:text-primary-btn-color border-primary-btn-outline;
+  }
+
+  .primary-link-btn {
+    @apply flex w-auto items-center border-transparent p-0 text-primary-link !important;
+  }
+
+  .secondary-regular-btn {
+    @apply bg-secondary-btn-color text-secondary-btn-color hover:bg-secondary-btn-hover border-2 border-secondary-btn-color;
+  }
+
+  .secondary-outline-btn {
+    @apply bg-secondary-btn-outline text-secondary-btn-outline hover:bg-secondary-btn-color hover:text-secondary-btn-color border-secondary-btn-outline;
+  }
+
+  .secondary-link-btn {
+    @apply flex w-auto items-center border-transparent p-0 text-secondary-link !important;
+  }
+
+  .tertiary-regular-btn {
+    @apply bg-tertiary-btn-color text-tertiary-btn-color hover:bg-tertiary-btn-hover border-2 border-tertiary-btn-color;
+  }
+
+  .tertiary-outline-btn {
+    @apply bg-tertiary-btn-outline text-tertiary-btn-outline hover:bg-tertiary-btn-color hover:text-tertiary-btn-color border-tertiary-btn-outline;
+  }
+
+  .tertiary-link-btn {
+    @apply flex w-auto items-center border-transparent p-0 text-tertiary-link !important;
+  }
+}
