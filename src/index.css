@@ -16,6 +16,129 @@ code {
     monospace;
 }
 
+.ww-content-2 p {
+  color: var(--secondary-muted-color);
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.ww-content-2 strong {
+  font-weight: 600;
+}
+
+.ww-content-2 h1:nth-child(n + 2) {
+  margin-top: 24px;
+}
+
+.ww-content-2 h1 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+.ww-content-2 a {
+  color: var(--secondary-link-color);
+  border-bottom: 1px solid #ccc;
+  border-color: var(--secondary-border-text);
+  transition: all 0.2s ease;
+}
+
+.ww-content-2 a:hover {
+  border-color: var(--secondary-border-text-hover);
+  color: var(--secondary-link-color-hover);
+}
+
+.ww-content-5 {
+  color: var(--tertiary-text-color);
+  font-weight: 500;
+}
+
+.ww-content-5 p:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+.ww-content-5 p {
+  color: var(--tertiary-marked-color);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.ww-content-5 strong {
+  font-weight: 700;
+}
+
+.ww-content-5 h1:nth-child(n + 2) {
+  padding-top: 2.5rem;
+}
+
+.ww-content-5 h1 {
+  color: var(--tertiary-marked-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  max-width: 600px;
+  line-height: 2rem;
+}
+
+.ww-content-5 a {
+  color: var(--tertiary-link-color);
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+.ww-content-5 a:hover {
+  border-color: var(--tertiary-border-text-hover);
+  color: var(--tertiary-link-color-hover);
+}
+
+.ww-content-7 {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+}
+
+.ww-content-7 p:nth-child(n + 2) {
+  margin-bottom: 20px;
+}
+
+.ww-content-7 h1:first-child {
+  margin-bottom: 16px;
+}
+
+.ww-content-7 h1:nth-child(n + 2) {
+  margin-bottom: 20px;
+}
+
+.ww-content-7 strong {
+  font-weight: 700;
+}
+
+.ww-content-7 a {
+  color: var(--secondary-link-color);
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+.ww-content-7 a:hover {
+  border-color: var(--secondary-border-text-hover);
+  color: var(--secondary-link-color-hover);
+}
+
+.ww-content-7 p {
+  font-size: 1rem;
+}
+
+.ww-content-7 h1 {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .ww-content-7 p {
+    font-size: 1.25rem;
+  }
+
+  .ww-content-7 h1 {
+    font-size: 1.5rem;
+  }
+}
+
 .theme-default {
   --primary-color: 54.66% 0.202 258.31;
   --secondary-color: 60% 0 0;
