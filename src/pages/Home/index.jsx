@@ -4,6 +4,7 @@ import Section4 from "./Section4";
 import Slider from "./Slider";
 import SliderHome from "./SliderHome";
 import { jarallax } from "jarallax";
+import image from "../../images/home/home-1.webp";
 
 function Sections() {
   useEffect(() => {
@@ -27,7 +28,7 @@ function Sections() {
         <div id="jarallax-container-0" className="jarallax-container">
           <img
             className="jarallax-img duration-200 group-hover/image:brightness-[.90] h-full mx-auto object-cover"
-            src="http://app.localhost:3000/assets/h18-a99bed48eb920daa5f316dee650da1c5220a7b61abe37fb2f03ea95dce444b39.jpg"
+            src={image}
           />
         </div>
       </section>

@@ -15,7 +15,7 @@ function Header() {
       data-speed="0.2"
       className="jarallax font-theme-text text-secondary-gray"
       style={{
-        backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25)), url(${image1})`,
+        backgroundImage: `url(${image1})`,
         backgroundSize: "cover",
       }}
     >

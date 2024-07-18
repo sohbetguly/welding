@@ -71,9 +71,9 @@ function Navbar() {
           </li>
         </ul>
         <div className="flex">
-          <div className="hidden md:flex items-center space-x-3">
+          <div className="flex items-center space-x-3">
             <Link
-              className="secondary-outline-btn rounded-btn duration-300 text-bold [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-1"
+              className="secondary-outline-btn text-nowrap rounded-btn duration-300 text-bold [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-1"
               to="tel:+99361616161"
             >
               <span className="flex items-center group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:border-b-2 border-transparent group-hover/btn:border-secondary-text">
