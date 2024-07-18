@@ -2,15 +2,15 @@ import React from "react";
 
 function Content() {
   return (
-    <section class="theme-default font-theme-text py-32 px-5 bg-tertiary-color text-tertiary-color swiper-backface-hidden">
-      <div class="max-w-4xl mx-auto px-4 lg:px-5 ">
+    <section className="theme-default font-theme-text py-32 px-5 bg-tertiary-color text-tertiary-color swiper-backface-hidden">
+      <div className="max-w-4xl mx-auto px-4 lg:px-5 ">
         <div>
-          <div class="font-theme-title [&_strong]:font-semibold text-4xl mb-10 text-tertiary-marked md:text-6xl mx-auto">
+          <div className="font-theme-title [&_strong]:font-semibold text-4xl mb-10 text-tertiary-marked md:text-6xl mx-auto">
             <p>
               <strong>The Power of Tech and AI</strong>
             </p>
           </div>
-          <div class="ww-content-5">
+          <div className="ww-content-5">
             <h1>
               <strong>Strategies for Advancing Technology and AI</strong>
             </h1>

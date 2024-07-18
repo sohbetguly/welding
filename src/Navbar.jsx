@@ -2,11 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const navbarTogglerOne = (e) => {
+    const navbar = document.getElementById("navbar")
+    const burger = e.currentTarget;
+    const ariaExpanded = burger.getAttribute("aria-expanded");
+    const menuItems = document.getElementById("menuItems");
+    if (ariaExpanded === "false") {
+      burger.setAttribute("translate", "-100");
+      burger.setAttribute("aria-expanded", "true");
+      const navHeight = navbar.scrollHeight;
+      menuItems.style.height = `calc(100vh - ${navHeight}px)`;
+      menuItems.style.maxHeight = `calc(100vh - ${navHeight}px)`;
+      document.body.style.overflow = "hidden";
+    } else {
+      burger.setAttribute("translate", "100");
+      burger.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = "";
+      menuItems.style.maxHeight = 0;
+    }
+  };
+
   return (
-    <nav
-      data-controller="burger"
-      className="px-5 sticky z-50 top-0 border-b border-b-secondary-color/50 bg-secondary-color text-secondary-color relative"
-    >
+    <nav id="navbar" className="px-5 sticky z-50 top-0 border-b border-b-secondary-color/50 bg-secondary-color text-secondary-color relative">
       <div className="flex items-center relative z-[9] px-4 py-3 lg:px-5 justify-between max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
         <Link href="/" className="text-inherit text-xl font-bold">
           Logo
@@ -80,7 +97,7 @@ function Navbar() {
           </div>
           <button
             aria-expanded="false"
-            data-action="burger#navbarTogglerTwo"
+            onClick={navbarTogglerOne}
             className="group w-6 h-6 relative block lg:hidden ms-3 my-auto navbar-toggler"
           >
             <svg

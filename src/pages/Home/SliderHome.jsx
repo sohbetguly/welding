@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderImage from "./images/welding-1.jpg";
+import HeaderImage from "../../images/welding-1.jpg";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
@@ -109,7 +109,7 @@ function SliderHome() {
         </SwiperSlide>
       </Swiper>
       <div>
-        <div class="swiper-pagination max-w-[26px] md:max-w-[30px] bg-secondary-white py-4 !bottom-auto pe-1 rounded-full swiper-pagination-vertical [&_>span]:bg-secondary-btn-color group-[.theme-default]/slider:[&__span]:bg-[#cac7b8] [&_>span]:border-tertiary-color [&_>span]:border-[1px] [&_>span]:shadow-2xl flex justify-center flex-col items-end space-y-2 *:size-2.5 md:*:size-3.5 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock"></div>
+        <div className="swiper-pagination max-w-[26px] md:max-w-[30px] bg-secondary-white py-4 !bottom-auto pe-1 rounded-full swiper-pagination-vertical [&_>span]:bg-secondary-btn-color group-[.theme-default]/slider:[&__span]:bg-[#cac7b8] [&_>span]:border-tertiary-color [&_>span]:border-[1px] [&_>span]:shadow-2xl flex justify-center flex-col items-end space-y-2 *:size-2.5 md:*:size-3.5 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock"></div>
       </div>
     </section>
   );

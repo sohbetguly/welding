@@ -1,5 +1,5 @@
 import React from "react";
-import image3 from "./images/welding-13.jpg";
+import image3 from "../../images/welding-13.jpg";
 
 function Section4() {
   return (
