@@ -102,13 +102,13 @@ function Slider() {
               },
             }}
             autoplay={{
-              delay: 1000,
+              delay: 1500,
               disableOnInteraction: false,
             }}
             slidesPerView={1}
             spaceBetween={20}
             loop={true}
-            speed={500}
+            speed={1000}
             modules={[Navigation, Autoplay]}
             className="mySwiper"
           >
