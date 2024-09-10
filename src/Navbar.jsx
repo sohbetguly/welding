@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   const navbarTogglerOne = (e) => {
-    const navbar = document.getElementById("navbar")
+    const navbar = document.getElementById("navbar");
     const burger = e.currentTarget;
     const ariaExpanded = burger.getAttribute("aria-expanded");
     const menuItems = document.getElementById("menuItems");
@@ -22,53 +22,46 @@ function Navbar() {
     }
   };
 
+  const links = [
+    { name: "Home", link: "/" },
+    { name: "About", link: "/about" },
+    { name: "Contact", link: "/contact" },
+    { name: "Services", link: "/services" },
+  ];
+
+  const { pathname } = useLocation();
+  const isActive = (path) => pathname === path;
+
   return (
-    <nav id="navbar" className="px-5 sticky z-50 top-0 border-b border-b-secondary-color/50 bg-secondary-color text-secondary-color relative">
+    <nav
+      id="navbar"
+      className="px-5 sticky z-50 top-0 border-b border-b-secondary-color/50 bg-secondary-color text-secondary-color relative"
+    >
       <div className="flex items-center relative z-[9] px-4 py-3 lg:px-5 justify-between max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
         <Link href="/" className="text-inherit text-xl font-bold">
           Logo
         </Link>
         <ul className="hidden flex-wrap lg:flex justify-start items-center flex-1 px-6">
-          <li>
-            <Link
-              to="/"
-              className="flex items-center text-secondary-link group hover:text-secondary-link-hover px-3 py-2"
-            >
-              <span className="text-base border-b border-b-transparent group-hover:border-b-secondary-color duration-100 pb-0">
-                Home
-              </span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/about"
-              className="flex items-center text-secondary-link group hover:text-secondary-link-hover px-3 py-2"
-            >
-              <span className="text-base border-b border-b-transparent group-hover:border-b-secondary-color duration-100 pb-0">
-                About
-              </span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/contact"
-              className="flex items-center text-secondary-link group hover:text-secondary-link-hover px-3 py-2"
-            >
-              <span className="text-base border-b border-b-transparent group-hover:border-b-secondary-color duration-100 pb-0">
-                Contact
-              </span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/services"
-              className="flex items-center text-secondary-link group hover:text-secondary-link-hover px-3 py-2"
-            >
-              <span className="text-base border-b border-b-transparent group-hover:border-b-secondary-color duration-100 pb-0">
-                Services
-              </span>
-            </Link>
-          </li>
+          {links.map(({ name, link }) => {
+            return (
+              <li>
+                <Link
+                  to={link}
+                  className={`flex items-center text-secondary-link group hover:text-secondary-link-hover px-3 py-2 ${
+                    isActive(link) ? "text-secondary-link-hover" : ""
+                  }`}
+                >
+                  <span
+                    className={`text-base border-b border-b-transparent group-hover:border-b-secondary-color duration-100 pb-0 ${
+                      isActive(link) ? "border-b-secondary-color" : ""
+                    }`}
+                  >
+                    {name}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
         <div className="flex">
           <div className="flex items-center space-x-3">
