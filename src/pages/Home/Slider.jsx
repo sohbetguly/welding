@@ -107,7 +107,7 @@ function Slider() {
             slidesPerView={1}
             spaceBetween={20}
             loop={true}
-            speed={1000}
+            speed={2000}
             modules={[Navigation, Autoplay]}
             className="mySwiper"
           >
