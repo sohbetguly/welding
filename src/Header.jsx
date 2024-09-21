@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import image1 from "./images/welding-1.png";
+import image1 from "./images/about/welding2.jpg";
 import { jarallax } from "jarallax";
 
 function Header() {
@@ -12,11 +12,11 @@ function Header() {
   return (
     <section
       data-jarallax
-      data-speed="0.2"
-      className="jarallax font-theme-text text-secondary-gray"
+      className="jarallax font-theme-text flex items-center min-h-[35rem] text-secondary-gray"
       style={{
         backgroundImage: `url(${image1})`,
         backgroundSize: "cover",
+        backgroundPosition: "top",
       }}
     >
       <div className="w-full mx-auto">
@@ -27,10 +27,10 @@ function Header() {
                 <div className="max-w-xl lg:max-w-3xl">
                   <div>
                     <div className="ps-1 font-theme-title [&_strong]:font-semibold text-md py-1.5 text-secondary-white">
-                      <p>INNOVATION</p>
+                      <p>Welding Art</p>
                     </div>
                     <div className="font-theme-title [&_strong]:font-semibold text-secondary-white pt-3 text-4xl md:text-5xl">
-                      <p>Welding Art</p>
+                      <p>ABOUT PÄK USSA</p>
                     </div>
                   </div>
                   <div className="mt-3">

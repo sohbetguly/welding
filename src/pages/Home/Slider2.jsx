@@ -103,6 +103,7 @@ function Slider() {
             autoplay={{
               delay: 1500,
               disableOnInteraction: false,
+              reverseDirection: true,
             }}
             slidesPerView={1}
             spaceBetween={20}

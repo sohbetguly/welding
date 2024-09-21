@@ -27,6 +27,7 @@ function Navbar() {
     { name: "About", link: "/about" },
     { name: "Contact", link: "/contact" },
     { name: "Services", link: "/services" },
+    { name: "FAQ", link: "/faq" },
   ];
 
   const { pathname } = useLocation();
@@ -44,7 +45,7 @@ function Navbar() {
         <ul className="hidden flex-wrap lg:flex justify-start items-center flex-1 px-6">
           {links.map(({ name, link }) => {
             return (
-              <li>
+              <li key={link}>
                 <Link
                   to={link}
                   className={`flex items-center text-secondary-link group hover:text-secondary-link-hover px-3 py-2 ${
@@ -53,7 +54,7 @@ function Navbar() {
                 >
                   <span
                     className={`text-base border-b border-b-transparent group-hover:border-b-secondary-color duration-100 pb-0 ${
-                      isActive(link) ? "border-b-secondary-color" : ""
+                      isActive(link) ? "!border-b-secondary-color" : ""
                     }`}
                   >
                     {name}

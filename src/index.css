@@ -468,4 +468,104 @@ code {
   .tertiary-link-btn {
     @apply flex w-auto items-center border-transparent p-0 text-tertiary-link !important;
   }
+
+  .margin-top {
+    @apply mt-5;
+  }
+
+  .margin-bottom {
+    @apply mb-4;
+  }
+
+  svg.margin-bottom {
+    @apply mb-2;
+  }
+
+  .margin-bottom-sm {
+    @apply mb-2;
+  }
+
+  .margin-bottom-xs {
+    @apply mb-1;
+  }
+
+  .margin-bottom-md {
+    @apply mb-8;
+  }
+
+  .margin-bottom-lg {
+    @apply mb-12;
+  }
+
+  .margin-bottom-xl {
+    @apply mb-14;
+  }
+
+  .padding-full {
+    @apply py-14;
+  }
+
+  .padding-half {
+    @apply py-7;
+  }
+
+  .padding-zero {
+    @apply py-0 !important;
+  }
+
+  .padding-top-full {
+    @apply pt-14;
+  }
+
+  .padding-top-half {
+    @apply pt-7;
+  }
+
+  .padding-bottom-full {
+    @apply pb-14;
+  }
+
+  .padding-bottom-half {
+    @apply pb-7;
+  }
+
+  .padding-bottom-zero {
+    @apply pb-0 !important;
+  }
+
+  .padding-top-zero {
+    @apply pt-0 !important;
+  }
+
+  .max-width-md {
+    @apply max-w-4xl lg:max-w-6xl xl:max-w-7xl;
+  }
+
+  .max-width-md-half {
+    @apply md:max-w-md lg:max-w-xl xl:max-w-[40rem];
+  }
+
+  .max-width-sm {
+    @apply max-w-2xl lg:max-w-4xl xl:max-w-5xl;
+  }
+
+  .max-width-6xl {
+    @apply max-w-6xl;
+  }
+
+  .max-width-4xl {
+    @apply max-w-4xl;
+  }
+
+  .max-width-xs {
+    @apply max-w-xl;
+  }
+
+  .max-width-2xl {
+    @apply max-w-2xl;
+  }
+
+  .max-width-3xl {
+    @apply max-w-3xl;
+  }
 }

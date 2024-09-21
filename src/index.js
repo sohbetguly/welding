@@ -7,6 +7,7 @@ import Home from "./pages/Home/index";
 import About from "./pages/About/index";
 import Contact from "./pages/Contact/index";
 import Services from "./pages/Services/index";
+import FAQ from "./pages/FAQ/index";
 
 import "./index.css";
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "services",
         element: <Services />,
+      },
+      {
+        path: "FAQ",
+        element: <FAQ />,
       },
     ],
   },
