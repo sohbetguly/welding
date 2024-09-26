@@ -20,25 +20,25 @@ function SliderHome() {
       >
         <SwiperSlide
           style={{ backgroundImage: `url(${HeaderImage1})` }}
-          className="px-5 swiper-slide bg-cover bg-center bg-zinc-700"
+          className="px-5 h-full swiper-slide bg-cover bg-center bg-zinc-700"
         >
-          <div class="max-w-6xl mx-auto h-full flex items-end">
-            <div class="px-4 lg:px-5 py-8 md:py-10 lg:py-14">
-              <div class="flex justify-start pt-28 sm:pt-32 md:pt-36 lg:pt-48">
-                <div class="rounded-btn w-full sm:max-w-[500px] text-tertiary-color md:bg-tertiary-marked/50 py-6 sm:py-8 sm:px-10">
-                  <div class="text-base md:text-lg text-shadow-sm [&_strong]:font-semibold">
+          <div className="max-w-6xl mx-auto h-full flex items-end">
+            <div className="px-4 lg:px-5 py-8 md:py-10 lg:py-14">
+              <div className="flex justify-start pt-28 sm:pt-32 md:pt-36 lg:pt-48">
+                <div className="rounded-btn w-full sm:max-w-[500px] text-tertiary-color md:bg-tertiary-marked/50 py-6 sm:py-8 sm:px-10">
+                  <div className="text-base md:text-lg text-shadow-sm [&_strong]:font-semibold">
                     <p>Handcrafted Iron Products Tailored to Your Needs</p>
                   </div>
-                  <div class="font-theme-title text-3xl lg:text-[44px]/10 text-shadow-sm uppercase font-light [&_strong]:font-semibold mt-2">
+                  <div className="font-theme-title text-3xl lg:text-[44px]/10 text-shadow-sm uppercase font-light [&_strong]:font-semibold mt-2">
                     <p>Strong and Stylish Metalwork</p>
                   </div>
-                  <div class="flex items-center space-x-3 mt-4">
+                  <div className="flex items-center space-x-3 mt-4">
                     <a
-                      class="border tertiary-regular-btn rounded-btn border-2 group/btn text-sm sm:text-base font-semibold uppercase py-2 px-4 duration-200 inline-flex items-center justify-center"
-                      href="get-started"
+                      className="border tertiary-regular-btn rounded-btn border-2 group/btn text-sm sm:text-base font-semibold uppercase py-2 px-4 duration-200 inline-flex items-center justify-center"
+                      href="/services"
                     >
-                      <span class="group-[.tertiary-link-btn]/btn:duration-200 leading-6 group-[.tertiary-link-btn]/btn:border-b-2 group-[.tertiary-link-btn]/btn:text-[16px] border-transparent group-hover/btn:border-tertiary-text">
-                        Get Started
+                      <span className="group-[.tertiary-link-btn]/btn:duration-200 leading-6 group-[.tertiary-link-btn]/btn:border-b-2 group-[.tertiary-link-btn]/btn:text-[16px] border-transparent group-hover/btn:border-tertiary-text">
+                        Our Services
                       </span>
                     </a>
                   </div>
@@ -51,35 +51,35 @@ function SliderHome() {
           style={{ backgroundImage: `url(${HeaderImage2})` }}
           className="px-5 swiper-slide bg-cover bg-center bg-zinc-700"
         >
-          <div class="max-w-6xl mx-auto h-full flex justify-end items-end">
-            <div class="px-4 lg:px-5 py-8 md:py-10 lg:py-14">
-              <div class="flex justify-start pt-28 sm:pt-32 md:pt-36 lg:pt-48">
-                <div class="rounded-btn w-full sm:max-w-[500px] text-tertiary-color md:bg-tertiary-marked/50 py-6 sm:py-8 sm:px-10">
-                  <div class="text-base md:text-lg text-shadow-sm [&_strong]:font-semibold">
+          <div className="max-w-6xl mx-auto h-full flex justify-end items-end">
+            <div className="px-4 lg:px-5 py-8 md:py-10 lg:py-14">
+              <div className="flex justify-start pt-28 sm:pt-32 md:pt-36 lg:pt-48">
+                <div className="rounded-btn w-full sm:max-w-[500px] text-tertiary-color md:bg-tertiary-marked/50 py-6 sm:py-8 sm:px-10">
+                  <div className="text-base md:text-lg text-shadow-sm [&_strong]:font-semibold">
                     <p>From Iron Gates to Outdoor Furniture, We Build It All</p>
                   </div>
-                  <div class="font-theme-title text-3xl lg:text-[44px]/10 text-shadow-sm uppercase font-light [&_strong]:font-semibold mt-2">
+                  <div className="font-theme-title text-3xl lg:text-[44px]/10 text-shadow-sm uppercase font-light [&_strong]:font-semibold mt-2">
                     <p>Custom Metal Solutions</p>
                   </div>
-                  <div class="flex items-center space-x-3 mt-4">
+                  <div className="flex items-center space-x-3 mt-4">
                     <a
-                      class="border tertiary-regular-btn rounded-btn border-2 group/btn text-sm sm:text-base font-semibold uppercase py-2 px-4 duration-200 inline-flex items-center justify-center"
-                      href="get-started"
+                      className="border tertiary-regular-btn rounded-btn border-2 group/btn text-sm sm:text-base font-semibold uppercase py-2 px-4 duration-200 inline-flex items-center justify-center"
+                      href="/about"
                     >
-                      <span class="group-[.tertiary-link-btn]/btn:duration-200 leading-6 group-[.tertiary-link-btn]/btn:border-b-2 group-[.tertiary-link-btn]/btn:text-[16px] border-transparent group-hover/btn:border-tertiary-text">
-                        Get Started
+                      <span className="group-[.tertiary-link-btn]/btn:duration-200 leading-6 group-[.tertiary-link-btn]/btn:border-b-2 group-[.tertiary-link-btn]/btn:text-[16px] border-transparent group-hover/btn:border-tertiary-text">
+                        About Us
                       </span>
                       <svg
-                        class="size-3 ms-1 hidden group-[.tertiary-link-btn]/btn:inline-block"
+                        className="size-3 ms-1 hidden group-[.tertiary-link-btn]/btn:inline-block"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
-                        stroke-width="3"
+                        strokeWidth="3"
                         stroke="currentColor"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           d="m8.25 4.5 7.5 7.5-7.5 7.5"
                         ></path>
                       </svg>

@@ -7,7 +7,7 @@ import Home from "./pages/Home/index";
 import About from "./pages/About/index";
 import Contact from "./pages/Contact/index";
 import Services from "./pages/Services/index";
-import FAQ from "./pages/FAQ/index";
+import OurWork from "./pages/Our Work/index";
 
 import "./index.css";
 
@@ -35,8 +35,8 @@ const router = createBrowserRouter([
         element: <Services />,
       },
       {
-        path: "FAQ",
-        element: <FAQ />,
+        path: "our-work",
+        element: <OurWork />,
       },
     ],
   },

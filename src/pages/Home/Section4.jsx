@@ -1,5 +1,6 @@
 import React from "react";
 import image3 from "../../images/welding-13.jpg";
+import { Link } from "react-router-dom";
 
 function Section4() {
   return (
@@ -20,9 +21,9 @@ function Section4() {
               </p>
             </div>
             <div className="flex uppercase theme-gold items-center flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-3 pt-5">
-              <a
+              <Link
                 className="rounded-btn secondary-regular-btn  duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-3 px-6"
-                href="#"
+                to="/contact"
               >
                 <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:border-b-2 border-transparent group-hover/btn:border-secondary-text">
                   Contact Us
@@ -41,10 +42,10 @@ function Section4() {
                     d="m8.25 4.5 7.5 7.5-7.5 7.5"
                   ></path>
                 </svg>
-              </a>
+              </Link>
               <a
                 className="rounded-btn secondary-outline-btn flex items-center justify-center duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-3 px-6"
-                href="#"
+                href="tel:+99361616161"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +172,7 @@ function Section4() {
                   </g>
                 </svg>
                 <div className="text-md text-secondary-marked [&_strong]:font-semibold">
-                  <p>Money Savar</p>
+                  <p>Higher Quality</p>
                 </div>
               </div>
             </div>

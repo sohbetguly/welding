@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 function Navbar() {
   const navbarTogglerOne = (e) => {
     const navbar = document.getElementById("navbar");
-    const burger = e.currentTarget;
+    const burger = document.getElementById("burgerMenu");
     const ariaExpanded = burger.getAttribute("aria-expanded");
     const menuItems = document.getElementById("menuItems");
     if (ariaExpanded === "false") {
@@ -25,9 +25,9 @@ function Navbar() {
   const links = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
-    { name: "Contact", link: "/contact" },
     { name: "Services", link: "/services" },
-    { name: "FAQ", link: "/faq" },
+    { name: "Our Work", link: "/our-work" },
+    { name: "Contact", link: "/contact" },
   ];
 
   const { pathname } = useLocation();
@@ -47,6 +47,7 @@ function Navbar() {
             return (
               <li key={link}>
                 <Link
+                  onClick={() => window.scrollTo(0, 0)}
                   to={link}
                   className={`flex items-center text-secondary-link group hover:text-secondary-link-hover px-3 py-2 ${
                     isActive(link) ? "text-secondary-link-hover" : ""
@@ -65,7 +66,7 @@ function Navbar() {
           })}
         </ul>
         <div className="flex">
-          <div className="flex items-center space-x-3">
+          <div className="hidden md:flex items-center space-x-3">
             <Link
               className="secondary-outline-btn text-nowrap rounded-btn duration-300 text-bold [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-1"
               to="tel:+99361616161"
@@ -90,6 +91,7 @@ function Navbar() {
             </Link>
           </div>
           <button
+            id="burgerMenu"
             aria-expanded="false"
             onClick={navbarTogglerOne}
             className="group w-6 h-6 relative block lg:hidden ms-3 my-auto navbar-toggler"
@@ -131,60 +133,29 @@ function Navbar() {
         className="flex flex-col items-start overflow-auto absolute z-[8] bg-white w-full bottom-100 start-0 lg:hidden duration-300"
       >
         <ul className="flex flex-col px-4 uppercase mt-4 mx-auto">
-          <li>
-            <Link
-              href="/"
-              className="flex items-center justify-center px-2 py-[8px] me-2"
-            >
-              <span className="hover:text-secondary-link-hover pb-0">Home</span>
-            </Link>
-          </li>
+          {links.map(({ name, link }) => {
+            return (
+              <li key={link}>
+                <Link
+                  onClick={navbarTogglerOne}
+                  to={link}
+                  className={`flex items-center justify-center px-2 py-[8px] me-2 ${
+                    isActive(link) ? "text-secondary-link-hover" : ""
+                  }`}
+                >
+                  {name}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
         <div className="flex w-full justify-center border-t p-4 space-x-2">
-          <Link
+          <a
+            href="tel:+99361616161"
             className="secondary-regular-btn duration-300 text-sm [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-2"
-            href="/"
           >
-            <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:border-b-2 border-transparent group-hover/btn:border-secondary-text">
-              Get Started
-            </span>
-            <svg
-              className="size-3 ms-1 hidden group-[.secondary-link-btn]/btn:inline-block"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="3"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              ></path>
-            </svg>
-          </Link>{" "}
-          <Link
-            className="secondary-outline-btn duration-300 text-sm [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-2"
-            href="/"
-          >
-            <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:border-b-2 border-transparent group-hover/btn:border-secondary-text">
-              Sign In
-            </span>
-            <svg
-              className="size-3 ms-1 hidden group-[.secondary-link-btn]/btn:inline-block"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="3"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              ></path>
-            </svg>
-          </Link>{" "}
+            +993 61616161
+          </a>
         </div>
       </div>
     </nav>

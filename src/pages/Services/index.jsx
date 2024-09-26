@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { jarallax } from "jarallax";
-import image from "../../images/welding-1.jpg";
+import image from "../../images/services/pak ussa (22).png";
+import image2 from "../../images/services/9314.jpg";
+import { Link } from "react-router-dom";
+import Feature from "../About/Feature";
 
 function Services() {
   useEffect(() => {
@@ -11,163 +14,145 @@ function Services() {
 
   return (
     <div>
-      <section class="font-default btn-secondary-rounded center bg-secondary-color group/alignment font-secondary-text px-5">
-          <div class="max-w-4xl pb-16 lg:max-w-6xl xl:max-w-7xl mx-auto px-4 lg:px-5 pt-14">
-            <div class="text-secondary-color group-[.right]/alignment:text-end group-[.left]/alignment:text-start group-[.center]/alignment:text-center">
-              <div class="ql-content-styles text-base py-1 opacity-70">
-                <p>SIMPLY AMAZING</p>
-              </div>
-              <div class="ql-content-styles font-secondary-title  pt-5 text-4xl md:text-5xl max-w-3xl group-[.right]/alignment:ms-auto group-[.left]/alignment:me-auto group-[.center]/alignment:mx-auto">
-                <p>Elevating Digital Design to New Heights of Innovation</p>
-              </div>
-              <div class="ql-content-styles opacity-70 pt-6 text-lg md:text-2xl max-w-xl md:max-w-2xl group-[.right]/alignment:ms-auto group-[.left]/alignment:me-auto group-[.center]/alignment:mx-auto">
-                <p><strong>Where creativity meets technology to redefine online experiences with precision and innovation</strong></p>
-              </div>
-              <div class="flex flex-col sm:flex-row group-[.right]/alignment:justify-end group-[.left]/alignment:justify-start group-[.center]/alignment:justify-center mt-8">
-                <div class="flex group-[.right]/alignment:justify-end group-[.left]/alignment:justify-start group-[.center]/alignment:justify-center space-x-[-10px]">
-                  <img class="w-12 h-12 border-[1.5px] border-secondary-color/40 rounded-full" src="/1.jpg" alt="" />
-                  <img class="w-12 h-12 border-[1.5px] border-secondary-color/40 rounded-full" src="/2.jpg" alt="" />
-                  <img class="w-12 h-12 border-[1.5px] border-secondary-color/40 rounded-full" src="/3.jpg" alt="" />
-                  <img class="w-12 h-12 border-[1.5px] border-secondary-color/40 rounded-full" src="/4.jpg" alt="" />
-                  <img class="w-12 h-12 border-[1.5px] border-secondary-color/40 rounded-full" src="/5.jpg" alt="" />
-                  <img class="w-12 h-12 border-[1.5px] border-secondary-color/40 rounded-full" src="/6.jpg" alt="" />
-                </div>
-                <div class="ms-0 sm:ms-4 mt-4 sm:mt-0">
-                  <div class="flex group-[.right]/alignment:justify-end group-[.left]/alignment:justify-start group-[.center]/alignment:justify-center">
-                    <strong class="me-1">
-                      5.0
-                    </strong>
-                    <div class="flex">
-                      <svg class="fill-yellow-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"></path>
-                      </svg>
-                      <svg class="fill-yellow-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"></path>
-                      </svg>
-                      <svg class="fill-yellow-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"></path>
-                      </svg>
-                      <svg class="fill-yellow-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"></path>
-                      </svg>
-                      <svg class="fill-yellow-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <span>From 2,000+ reviews</span>
-                </div>
-              </div>
-            </div>
-          </div>
-     </section>
       <section
+        data-jarallax=""
+        class="secondary-default font-default shape-rounded left secondary-classes relative flex flex-col group/alignment jarallax min-h-[400px]"
         data-controller="jarallax"
-        data-jarallax
-        data-speed="0.2"
-        className="secondary-gold jarallax font-secondary-text text-secondary-gray"
       >
-        <div className="h-96"></div>
-        <div id="jarallax-container-0" className="jarallax-container">
-          <img
-            className="jarallax-img duration-200 group-hover/image:brightness-[.90] h-full mx-auto object-cover"
-            src={image}
-          />
+        <img
+          class="animate-element jarallax-img absolute h-full w-full object-cover z-[-2]"
+          src={image2}
+          alt="welding"
+        />
+
+        <div class="flex grow items-end justify-center bg-gradient-to-bl from-transparent via-transparent to-gray-900/80 px-9">
+          <div class="absolute combined-shadow w-full h-full bg-gradient-to-b from-gray-900/40 via-transparent to-transparent z-[-1]"></div>
+          <div class="max-width-md rounded-shape w-full text-secondary-white text-alignment padding-top-full padding-bottom-full">
+            <div class="animate-element ql-content-styles text-5xl text-secondary-on-image font-secondary-title margin-bottom">
+              <p>Our Welding Masterpieces</p>
+            </div>
+            <div class="animate-element ql-content-styles text-2xl text-secondary-on-image max-width-sm margin-bottom margin-alignment">
+              <p>Bringing Your Metalwork Visions to Life</p>
+            </div>
+            <Link
+              class="rounded-btn bg-secondary-white text-secondary-dark hover:bg-secondary-btn-color hover:text-secondary-btn-color text-xl border-transparent flex items-center justify-center duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-2 px-4"
+              to="/contact"
+            >
+              Get a Free Quote
+            </Link>
+          </div>
         </div>
       </section>
-      <section class="font-default btn-secondary-rounded center group/alignment font-secondary-text bg-secondary-color text-secondary-color px-5">
-        <div class="max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto px-4 lg:px-5 py-14">
-          <div class="group-[.right]/alignment:text-end group-[.left]/alignment:text-start group-[.center]/alignment:text-center">
-            <div class="ql-content-styles font-secondary-title  text-4xl [&_*]:mb-10">
-              <p>Drive Success and Innovation</p>
+      <section class="theme-gold font-default shape-rounded center theme-classes px-9 group/alignment">
+        <div class="max-width-4xl padding-top-full padding-bottom-full mx-auto">
+          <div class="text-alignment">
+            <div
+              animation-type=""
+              animation-delay=""
+              class="animate-element ql-content-styles only:m-0 last:m-0 margin-bottom font-theme-title duration-200"
+            >
+              <h4 className="text-4xl uppercase text-secondary-marked">
+                <strong>At Päk Ussa, we offer</strong>
+              </h4>
             </div>
-          </div>
-          <ul class="flex flex-wrap group-[.right]/alignment:justify-end group-[.left]/alignment:justify-start group-[.center]/alignment:justify-center gap-x-14 gap-y-10">
-            <li class="w-full sm:w-[calc(50%-28px)] md:w-[calc(25%-42px)]">
-              <svg
-                class="size-8 mx-auto text-secondary-fill"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                <path d="m9 12 2 2 4-4"></path>
-              </svg>
-              <div class="ql-content-styles mx-auto pt-3 max-w-[250px] opacity-70 font-secondary-title md:w-auto text-[15px] md:text-[12px] lg:text-[15px] text-center">
-                <p>Supercharge Your Online Presence with Digital Marketing</p>
-              </div>
-            </li>
-            <li class="w-full sm:w-[calc(50%-28px)] md:w-[calc(25%-42px)]">
-              <svg
-                class="size-8 mx-auto text-secondary-fill"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                <path d="m9 12 2 2 4-4"></path>
-              </svg>
-              <div class="ql-content-styles mx-auto pt-3 max-w-[250px] opacity-70 font-secondary-title md:w-auto text-[15px] md:text-[12px] lg:text-[15px] text-center">
-                <p>Growth Strategies for Success in Competitive Markets</p>
-              </div>
-            </li>
-            <li class="w-full sm:w-[calc(50%-28px)] md:w-[calc(25%-42px)]">
-              <svg
-                class="size-8 mx-auto text-secondary-fill"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                <path d="m9 12 2 2 4-4"></path>
-              </svg>
-              <div class="ql-content-styles mx-auto pt-3 max-w-[250px] opacity-70 font-secondary-title md:w-auto text-[15px] md:text-[12px] lg:text-[15px] text-center">
-                <p>
-                  Powerful Growth Hacks to Maximize Profitability and Wealth
+
+            <div
+              animation-type=""
+              animation-delay=""
+              class="animate-element margin-bottom only:mb-0 last:mb-0"
+            >
+              <div class="ql-content-styles dynamic-font-size-md opacity-70 max-width-sm">
+                <p className="text-xl">
+                  <strong>
+                    a range of welding and metalwork services designed to meet{" "}
+                    <br />
+                    your needs, from custom gates to artistic iron pieces.{" "}
+                  </strong>
                 </p>
               </div>
-            </li>
-            <li class="w-full sm:w-[calc(50%-28px)] md:w-[calc(25%-42px)]">
-              <svg
-                class="size-8 mx-auto text-secondary-fill"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                <path d="m9 12 2 2 4-4"></path>
-              </svg>
-              <div class="ql-content-styles mx-auto pt-3 max-w-[250px] opacity-70 font-secondary-title md:w-auto text-[15px] md:text-[12px] lg:text-[15px] text-center">
-                <p>Boost Efficiency with Innovative Approaches</p>
+            </div>
+
+            <div
+              animation-type=""
+              animation-delay=""
+              class="animate-element flex flex-wrap justify-alignment gap-9 mt-12"
+            >
+              <div class="w-full md:w-[calc(50%-18px)]">
+                <div class="flex group-[.right]/alignment:flex-row-reverse group-[.right]/alignment:justify-start items-center text-start group-[.right]/alignment:text-end pb-4">
+                  <div>
+                    <div class="ql-content-styles font-theme-title pt-1">
+                      <h6>
+                        <strong>Custom Iron Creations</strong>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="ql-content-styles opacity-90 font-theme-text w-full md:max-w-[40vw] lg:max-w-[30vw] group-[.right]/alignment:max-w-full text-start group-[.right]/alignment:text-end">
+                    We specialize in crafting custom iron products, from
+                    intricate gates to durable furniture. Our expert team
+                    tailors each piece to your exact specifications, combining
+                    beauty and functionality to meet your unique vision.
+                  </div>
+                </div>
               </div>
-            </li>
-          </ul>
+
+              <div class="w-full md:w-[calc(50%-18px)]">
+                <div class="flex group-[.right]/alignment:flex-row-reverse group-[.right]/alignment:justify-start items-center text-start group-[.right]/alignment:text-end pb-4">
+                  <div>
+                    <div class="ql-content-styles font-theme-title pt-1">
+                      <h6>
+                        <strong>Residential & Commercial Solutions</strong>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="ql-content-styles opacity-90 font-theme-text w-full md:max-w-[40vw] lg:max-w-[30vw] group-[.right]/alignment:max-w-full text-start group-[.right]/alignment:text-end">
+                    Whether for home or business, we provide top-quality
+                    metalwork solutions. From tapchans to iron doors and
+                    carports, our designs blend practicality with artistry,
+                    ensuring long-lasting, durable installations for any
+                    environment.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+      <section class="font-theme-text pb-8 theme-gold text-start font-roboto py-10 px-5 bg-secondary-gray text-secondary-color">
+        <div class="max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto px-4 lg:px-5">
+          <div class="flex flex-col-reverse md:flex-row items-center">
+            <div class="pt-5 md:me-8 w-full md:w-6/12">
+              <img
+                class="object-cover rounded-lg h-auto"
+                src={image}
+                alt="welding"
+              />
+            </div>
+            <div class="w-full mb-4 md:w-6/12">
+              <div class="ps-1 mt-6 text-md py-1 text-secondary-color">
+                <p class="uppercase">Custom Iron Gate Craftsmanship</p>
+              </div>
+              <div class="font-theme-title theme-gold text-secondary-marked [&amp;_strong]:font-semibold pt-3 pb-5 text-4xl lg:text-5xl">
+                <p>Secure, Durable, and Beautifully Designed</p>
+              </div>
+              <div class="text-md max-w-[400px] lg:text-[18px] text-secondary-muted max-w-[500px]">
+                <p>
+                  Our custom iron gates combine security and elegance, offering
+                  both protection and aesthetic appeal. Each gate is handcrafted
+                  to match your style and needs, whether for residential or
+                  commercial spaces. Built to last, our gates are designed with
+                  precision, ensuring durability and weather resistance without
+                  compromising beauty.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>{" "}
+      <Feature />
     </div>
   );
 }

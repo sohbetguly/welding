@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import image1 from "./images/about/welding2.jpg";
 import { jarallax } from "jarallax";
+import { Link } from "react-router-dom";
 
 function Header() {
   useEffect(() => {
@@ -42,9 +43,9 @@ function Header() {
                     </div>
                   </div>
                   <div className="flex flex-wrap sm:items-center">
-                    <a
+                    <Link
                       className="secondary-link-btn mt-4 rounded-btn hover:[&.secondary-outline-btn]:bg-secondary-btn-color [&.secondary-outline-btn]:bg-secondary-white border me-4 text-center group/btn py-2 border-0 px-5 duration-300"
-                      href="#"
+                      to="/contact"
                     >
                       <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:text-secondary-white group-[.secondary-link-btn]/btn:border-b-2 group-[.secondary-link-btn]/btn:text-lg group-hover/btn:border-secondary-white font-semibold border-transparent group-hover/btn:border-secondary-text">
                         Contact us
@@ -63,7 +64,7 @@ function Header() {
                           d="m8.25 4.5 7.5 7.5-7.5 7.5"
                         ></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
