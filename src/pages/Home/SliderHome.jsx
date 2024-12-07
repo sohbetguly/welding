@@ -10,9 +10,8 @@ function SliderHome() {
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         loop={true}
-        effect="fade"
         autoplay={{ delay: 2500 }}
-        speed={3000}
+        speed={2000}
         pagination={{
           el: ".swiper-pagination",
           clickable: true,
