@@ -8,6 +8,7 @@ import { jarallax } from "jarallax";
 import image from "../../images/home/home-1.webp";
 import FAQ from "./Testimonial";
 import Features from "./Features";
+import FirstSection from "./FirstSection";
 
 function Sections() {
   useEffect(() => {
@@ -18,7 +19,8 @@ function Sections() {
 
   return (
     <div>
-      <SliderHome />
+      {/* <SliderHome /> */}
+      <FirstSection />
       <Features />
       <Section3 />
       <Section4 />
