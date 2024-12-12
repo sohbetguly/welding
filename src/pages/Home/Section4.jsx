@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Section4() {
   return (
-    <section className="font-theme-text theme-gold text-start font-roboto py-10 px-5 bg-secondary-gray text-secondary-color">
+    <section className="font-theme-text theme-gold text-start font-roboto py-10 px-5 text-secondary-color">
       <div className="max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto px-4 lg:px-5">
         <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-x-5">
           <div>
@@ -22,7 +22,7 @@ function Section4() {
             </div>
             <div className="flex uppercase theme-gold items-center flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-3 pt-5">
               <Link
-                className="rounded-btn secondary-regular-btn  duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-3 px-6"
+                className="btn-bouncing rounded-btn secondary-regular-btn  duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-3 px-6"
                 to="/contact"
               >
                 <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:border-b-2 border-transparent group-hover/btn:border-secondary-text">

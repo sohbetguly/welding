@@ -6,6 +6,8 @@ import Slider2 from "./Slider2";
 import SliderHome from "./SliderHome";
 import { jarallax } from "jarallax";
 import image from "../../images/home/home-1.webp";
+import FAQ from "./Testimonial";
+import Features from "./Features";
 
 function Sections() {
   useEffect(() => {
@@ -17,6 +19,7 @@ function Sections() {
   return (
     <div>
       <SliderHome />
+      <Features />
       <Section3 />
       <Section4 />
       <section
@@ -33,8 +36,8 @@ function Sections() {
           />
         </div>
       </section>
+      <FAQ />
       <Slider />
-      <Slider2 />
     </div>
   );
 }
