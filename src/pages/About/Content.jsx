@@ -5,7 +5,7 @@ function Content() {
     <section className="theme-default font-theme-text py-32 pb-10 px-5 bg-tertiary-color text-tertiary-color swiper-backface-hidden">
       <div className="max-w-4xl mx-auto px-4 lg:px-5 ">
         <div>
-          <div className="ww-content-5">
+          <div className="ww-content-5 [&_p]:text-base">
             <h1>
               <strong>A Legacy of Craftsmanship and Quality</strong>
             </h1>
