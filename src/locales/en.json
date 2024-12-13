@@ -1,4 +1,96 @@
 {
-  "welcome": "Welcome to Päk Ussa!",
-  "description": "We specialize in custom metalwork."
+  "main_heading": "Strong and Stylish Metalwork",
+  "sub_heading": "Handcrafted Iron Products Tailored to Your Needs",
+  "cta_button": "Our Services",
+  "section3": {
+    "category": "Metalworking",
+    "heading": "High-Accuracy Welding Services",
+    "description": "Bringing extensive expertise to complex metal fabrication, I excel in diverse welding techniques for precise and durable results."
+  },
+  "features": {
+    "main_title": "Masterful Metalworking",
+    "main_subtitle": "At Päk Ussa, we specialize in creating high-quality, custom metalwork solutions tailored to your needs, blending traditional craftsmanship with innovative designs for durability and beauty.",
+    "items": [
+      {
+        "title": "Expert Craftsmanship",
+        "description": "Skilled welders and artisans bringing precision to every project."
+      },
+      {
+        "title": "Custom Solutions",
+        "description": "Bespoke designs and materials tailored to your exact specifications."
+      },
+      {
+        "title": "Durability & Quality",
+        "description": "Creating long-lasting products that combine strength with aesthetic appeal."
+      },
+      {
+        "title": "Client Satisfaction",
+        "description": "Focused on delivering results that exceed expectations and ensure happiness."
+      }
+    ]
+  },
+  "section4": {
+    "title": "Welding Mastery",
+    "subtitle": "Elevating Digital Design to New Heights of Innovation",
+    "description": "Where creativity meets technology to redefine online experiences with precision and innovation",
+    "buttons": {
+      "contactUs": "Contact Us",
+      "makeACall": "Make a Call"
+    },
+    "features": {
+      "userFriendly": "User Friendly",
+      "collaborative": "Collaborative",
+      "precisionDriven": "Precision-Driven"
+    },
+    "contact": {
+      "phoneNumber": "+99361616161"
+    }
+  },
+  "testimonial": {
+    "ahmet": {
+      "text": "Päk Ussa transformed our outdoor space with a stunning wrought iron gate and custom metal furniture. Their attention to detail and craftsmanship exceeded our expectations. Highly recommend their services!"
+    },
+    "elif": {
+      "text": "The team at Päk Ussa was exceptional! From the first consultation to the final installation, they provided expert advice and created custom metalwork that perfectly suited our needs. We're beyond satisfied with the results!"
+    },
+    "murat": {
+      "text": "Working with Päk Ussa was a fantastic experience. Their precision in welding and custom designs brought our vision to life. The quality and durability of their products are unmatched. Truly skilled artisans!"
+    }
+  },
+  "homeSlider": {
+    "new": "New",
+    "title": "Iron Doors",
+    "subtitle": "Strength, Security, and Timeless Elegance"
+  },
+  "aboutHeader": {
+    "label": "Welding Art",
+    "title": "ABOUT PÄK USSA",
+    "subtitle": "Discover the Future of Welding Through Skillful Precision and Cutting-Edge Innovation",
+    "link": "Contact us"
+  },
+  "aboutContent": {
+    "title": "A Legacy of Craftsmanship and Quality",
+    "text1": "At Päk Ussa, we combine years of hands-on expertise with a deep commitment to precision, delivering exceptional welding and metalwork services. Founded with a passion for creating durable and aesthetically pleasing iron structures, we have earned a reputation for craftsmanship that meets the highest industry standards.",
+    "text2": "Our journey began with a simple goal: to bring high-quality, custom metal products to residential and commercial clients across the region. Today, we are proud to offer a wide range of metalworking services, from traditional designs like the tapchan to modern iron gates, wrought iron carports, and custom dining sets. Whether you're looking for functional pieces, decorative elements, or a blend of both, our skilled team has the experience and vision to make your project a reality.",
+    "listMainTitle": "Why Choose Päk Ussa?",
+    "listTitle1": "Expert Craftsmanship:",
+    "listText1": "Our team is comprised of highly skilled welders and metalworkers who bring attention to detail and artistry to every project.",
+    "listTitle2": "Custom Solutions:",
+    "listText2": "No two projects are the same. We work closely with you to ensure your vision is realized, tailoring designs and materials to meet your exact needs.",
+    "listTitle3": "Durability & Quality:",
+    "listText3": "Every piece we create is built to last, combining strength with beauty. From outdoor structures to interior furniture, you can trust in the longevity and quality of our work.",
+    "listTitle4": "Client Satisfaction:",
+    "listText4": "Your satisfaction is our priority. We believe in transparent communication, timely service, and delivering results that exceed expectations.",
+    "listTitle5": "Safety First:",
+    "listText5": "We follow strict safety protocols to ensure that every project is not only built to last but also safe for its intended use."
+  },
+  "aboutInfo": {
+    "title": "Get in Touch with Päk Ussa",
+    "phone": "Phone",
+    "email": "Phone",
+    "addressTitle": "Address",
+    "address": "123 Ironworks Lane, Cherry Hill, NJ 08002",
+    "workingHoursTitle": "Working Hours",
+    "workingHours": "Monday – Saturday, 8:00 AM – 6:00 PM"
+  }
 }

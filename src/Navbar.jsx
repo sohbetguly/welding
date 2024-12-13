@@ -23,7 +23,7 @@ function Navbar() {
     }
   };
 
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang); // Change the current language
@@ -45,9 +45,6 @@ function Navbar() {
       id="navbar"
       className="px-5 sticky z-50 top-0 border-b border-b-secondary-color/50 bg-secondary-color text-secondary-color relative"
     >
-      <button onClick={() => changeLanguage("en")}>EN</button>
-      <button onClick={() => changeLanguage("tm")}>TM</button>
-
       <div className="flex items-center relative z-[9] px-4 py-3 lg:px-5 justify-between max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
         <Link href="/" className="text-inherit text-xl font-bold">
           Logo
@@ -76,6 +73,26 @@ function Navbar() {
           })}
         </ul>
         <div className="flex">
+          <div className="flex gap-x-2 me-4">
+            <button
+              className={i18n.language === "en" ? "font-bold" : ""}
+              onClick={() => changeLanguage("en")}
+            >
+              EN
+            </button>
+            <button
+              className={i18n.language === "tm" ? "font-bold" : ""}
+              onClick={() => changeLanguage("tm")}
+            >
+              TM
+            </button>
+            <button
+              className={i18n.language === "ru" ? "font-bold" : ""}
+              onClick={() => changeLanguage("ru")}
+            >
+              RU
+            </button>
+          </div>
           <div className="hidden md:flex items-center space-x-3">
             <Link
               className="secondary-outline-btn text-nowrap rounded-btn duration-300 text-bold [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-1"

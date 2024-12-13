@@ -2,8 +2,11 @@ import React from "react";
 import image1 from "../../images/home/testimonial/1.webp";
 import image2 from "../../images/home/testimonial/2.png";
 import image3 from "../../images/home/testimonial/3.webp";
+import { useTranslation } from "react-i18next";
 
-function FAQ() {
+function Testimonials() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="Testimonial-113"
@@ -50,10 +53,7 @@ function FAQ() {
                 </div>
                 <div className="mt-2">
                   <div className="ql-content-styles font-theme-text w-full">
-                    Ahmet has over 10 years of experience in software
-                    development. Specializing in Java and Python, he
-                    consistently delivers innovative solutions to enhance the
-                    productivity of his team and optimize project performance.
+                    {t("testimonial.ahmet.text")}
                   </div>
                 </div>
               </div>
@@ -88,10 +88,7 @@ function FAQ() {
                 </div>
                 <div className="mt-2">
                   <div className="ql-content-styles font-theme-text w-full">
-                    Elif has a strong background in creating marketing
-                    strategies and ensuring brands gain visibility on digital
-                    platforms. She excels at developing creative campaigns and
-                    maximizing customer engagement.
+                    {t("testimonial.elif.text")}
                   </div>
                 </div>
               </div>
@@ -126,11 +123,7 @@ function FAQ() {
                 </div>
                 <div className="mt-2">
                   <div className="ql-content-styles font-theme-text w-full">
-                    Murat is an HR leader who helps companies find talented
-                    employees and guide them in their careers. With expertise in
-                    recruitment processes and employee satisfaction, his goal is
-                    to strengthen organizational culture and create a positive
-                    work environment.
+                    {t("testimonial.murat.text")}
                   </div>
                 </div>
               </div>
@@ -142,4 +135,4 @@ function FAQ() {
   );
 }
 
-export default FAQ;
+export default Testimonials;

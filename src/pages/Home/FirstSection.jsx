@@ -5,8 +5,6 @@ import { useTranslation } from "react-i18next";
 function FirstSection() {
   const { t } = useTranslation();
 
-  console.log(t("welcome"));
-
   return (
     <section
       id="Header-203"
@@ -24,15 +22,12 @@ function FirstSection() {
           <div className="max-w-7xl custom-width mx-auto">
             <div className="max-w-2xl">
               <div className="margin-bottom-heading">
-                <h1>{t("welcome")}</h1>
-                <p>{t("description")}</p>
-
                 <div className="animate-element uppercase text-5xl ql-content-styles text-theme-on-image font-theme-title group-[.center]/alignment:text-center group-[.right]/alignment:text-start margin-bottom">
-                  <p>Strong and Stylish Metalwork</p>
+                  <p>{t("main_heading")}</p>
                 </div>
 
                 <div className="animate-element text-2xl ql-content-styles text-theme-on-image group-[.center]/alignment:text-center group-[.right]/alignment:text-start">
-                  <p>Handcrafted Iron Products Tailored to Your Needs</p>
+                  <p>{t("sub_heading")}</p>
                 </div>
               </div>
 
@@ -42,7 +37,7 @@ function FirstSection() {
                   href="/services"
                 >
                   <span className="group-[.tertiary-link-btn]/btn:duration-200 leading-6 group-[.tertiary-link-btn]/btn:border-b-2 group-[.tertiary-link-btn]/btn:text-[16px] border-transparent group-hover/btn:border-tertiary-text">
-                    Our Services
+                    {t("cta_button")}
                   </span>
                 </a>
               </div>

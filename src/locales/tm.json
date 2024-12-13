@@ -1,4 +1,97 @@
 {
-  "welcome": "Hoş geldiňiz",
-  "description": "Päk ussa Hususy Kärhanasy"
+  "main_heading": "Güýçli we Stildäki Metal İşleri",
+  "sub_heading": "Size Höwür Halan Ýokary Hilde Demir Önümleri",
+  "cta_button": "Hyzmatlarymyz",
+  "section3": {
+    "category": "Metallişler",
+    "heading": "Takyklygy Ýokary Kebşirleme Hyzmatlary",
+    "description": "Çylşyrymly metal işläp düzmekde giň tejribe bilen, takyk we uzak möhletli netije üçin dürli kebşirleme tehnikalarynda kämilleşdirilen."
+  },
+  "features": {
+    "main_title": "Ussat Metal İşleri",
+    "main_subtitle": "Päk Ussa-da, ýokary hilli, size ýöriteleşdirilen metal işleriniň çözgütlerini hödürleýäris, adaty ussatlygy innowasion dizaýn bilen birleşdirip, çydamlylygy we gözelligi üpjün edýäris.",
+    "items": [
+      {
+        "title": "Ussatlykly Işleşik",
+        "description": "Her bir taslama takyklyk bilen çemeleşýän ökde kebşirleýjiler we ussalar."
+      },
+      {
+        "title": "Ýöriteleşdirilen Çözgütler",
+        "description": "Size laýyk dizaýnlar we materiallar bilen ýörite işläp düzme."
+      },
+      {
+        "title": "Çydamlylyk we Hil",
+        "description": "Gözellik bilen güýçliligi birleşdirip, uzak möhletleýin önümler döredýäris."
+      },
+      {
+        "title": "Müşderiniň Kanagatlanmasy",
+        "description": "Umumy garaşylmalardan ýokary netijeleri üpjün edip, müşderi şatlygyny gazanmak."
+      }
+    ]
+  },
+  "section4": {
+    "title": "Kebşirleme Ussatlygy",
+    "subtitle": "Sanly Dizaýnda Täze Innowasiýa Derejelerine Galkynmak",
+    "description": "Ynjalyk we innowasiýa bilen onlaýn tejribeleri täzeden kesgitleýän ýer",
+    "buttons": {
+      "contactUs": "Habarlaşyň",
+      "makeACall": "Jaň Ediň"
+    },
+    "features": {
+      "userFriendly": "Ulanyjy üçin Amatly",
+      "collaborative": "Hyzmatdaşlykly",
+      "precisionDriven": "Takyklyga Ugurly"
+    },
+    "contact": {
+      "phoneNumber": "+99361616161"
+    }
+  },
+
+  "testimonial": {
+    "ahmet": {
+      "text": "Päk Ussa, açyk meýdanymyzy ajaýyp demir derrew önümler we özboluşly metal mebeller bilen täzeläp berdi. Olar jüklemegiňize we ussalyk işlerine ünsli garaýyşlary bilen öňde bolmadyk netije berdi. Olar hyzmatlaryny berk maslahat berýärin!"
+    },
+    "elif": {
+      "text": "Päk Ussa topary ägirt uly! Ilkinji maslahatdan soňky gurama çenli, olar hünär taýdan maslahat berip, mebel işlemek üçin aýratyn metal önümler döretdiler, olar biziň isleglerimize doly laýyk geldi. Netijelerimizden has yzygiderli hoşal!"
+    },
+    "murat": {
+      "text": "Päk Ussa bilen işleşmek ajaýyp tejribe boldy. Olar işjeňlikde we özboluşly dizaýnlarda takyklyklarymyzdan peýdalanyp, meýilnamalarymyzy durmuşa geçirdiler. Olar üpjün edýän önümleriň hil we durnuklylygy deňi-taýy bolmaýan ýokary hilli. Hakyky ussatlar!"
+    }
+  },
+  "homeSlider": {
+    "new": "Täze",
+    "title": "Demir gapylar",
+    "subtitle": "Güýji, howpsuzlyk we hemişelik eleganlylyk"
+  },
+  "aboutHeader": {
+    "label": "Suwarçylyk sungaty",
+    "title": "PÄK USSA HAKYNDA",
+    "subtitle": "Usta takyklygy we öňdebaryjy innowasiýalar arkaly suwarlaryň geljegini keşf ediň",
+    "link": "Biz bilen aragatnaşyk sakla"
+  },
+  "aboutContent": {
+    "title": "Sungat we hil mirasy",
+    "text1": "Päk Ussa-da biz köpýyllyk tejribe bilen takyklyga uly jogapkärçilik bilen ýakynlaşýarys, aýratyn suwarlyk we metal işlemek hyzmatlaryny hödürleýäris. Uzak ömri we estetiki taýdan jozaply demir gurluşlary döretmäge bolan söýgi bilen esaslandyrylan bu işimiz, iň ýokary senagat standartlaryna laýyk işçilikde abraý gazandy.",
+    "text2": "Biziň ýolumyz bir sadäni maksada ýetirmek bilen başlady: regionda ýaşaýyş we komerçi müşderiler üçin ýokary hilli, ýörite metaldan ýasalan önümleri hödürlemek. Häzirki wagtda biz tradision tapşanlardan, döwrebap demir gapylara, demir awtoulag örtüklerine we ýörite düzülýän nahar stollaryna çenli metal işlemek hyzmatlarynyň giň gerimini hödürlemek bilen guwanýarys. Funksional elementler, bezeg elementleri ýa-da bu ikisini birleşdirmek isleseňiz, biziň hünärmen toparymyz taslamaňyzy durmuşa geçirmek üçin tejribe we garaýyşlara eýe.",
+    "listMainTitle": "Näme üçin Päk Ussa saýlamaly?",
+    "listTitle1": "Usta işçilik:",
+    "listText1": "Toparymyz ýokary derejeli suwarlary we metaldan işlemek ukyplaryna eýe bolup, her taslamada jikme-jiklige we sungata uly üns berýär.",
+    "listTitle2": "Özboluşly çözgütler:",
+    "listText2": "Her taslama aýratyndyr. Siziň garaýşyňyzy amala aşyrmak üçin, dizaýn we materiallary takyk zerurlyklaryňyza laýyklykda saýlap taýýarlap, siz bilen ýakyndan işleşýäris.",
+    "listTitle3": "Durnuklylyk we hil:",
+    "listText3": "Harytlaryň her biri uzaga gidýän we güýç bilen gözellik birleşdirilýän öndürilendir. Açyk gurluşlardan başlap, içeri mebel, işimiziň durnuklylygy we hiline ynanýarsyňyz.",
+    "listTitle4": "Müşderi kanagatlanmasy:",
+    "listText4": "Siziň kanagatlanmagyňyz biziň iň ileri tutýan maksadymyz. Biz açyk aragatnaşyk, wagtynda hyzmat we garaşylýan netijeleriň üstünde netijeleri ýetirmegi ynanýarys.",
+    "listTitle5": "Bertden öň: Howpsuzlyk:",
+    "listText5": "Her taslamanyň diňe bir uzak dowam etmegi däl, eýsem onuň niýetlenen ulanylyşyna hem howpsuz bolmagyny üpjün etmek üçin biz howpsuzlyk protokollaryna boýun alýarys."
+  },
+  "aboutInfo": {
+    "title": "Päk Ussa bilen aragatnaşyk sakla",
+    "phone": "Telefon",
+    "email": "Elektron poçta",
+    "addressTitle": "Adres",
+    "address": "123 Ironworks Lane, Cherry Hill, NJ 08002",
+    "workingHoursTitle": "Iş wagty",
+    "workingHours": "Duşenbe – Şenbe, 8:00 – 18:00"
+  }
 }

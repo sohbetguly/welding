@@ -6,7 +6,7 @@ import FirstSection from "./FirstSection";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
 import Slider from "./Slider";
-import FAQ from "./Testimonial";
+import Testimonials from "./Testimonial";
 
 function Sections() {
   useEffect(() => {
@@ -35,7 +35,7 @@ function Sections() {
           />
         </div>
       </section>
-      <FAQ />
+      <Testimonials />
       <Slider />
     </div>
   );

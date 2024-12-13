@@ -4,6 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import en from "./locales/en.json";
 import tm from "./locales/tm.json";
+import ru from "./locales/ru.json";
 
 i18n
   .use(LanguageDetector) // Automatically detects user language
@@ -12,6 +13,7 @@ i18n
     resources: {
       en: { translation: en },
       tm: { translation: tm },
+      ru: { translation: ru },
     },
     fallbackLng: "en", // Default language
     interpolation: {

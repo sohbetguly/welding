@@ -1,24 +1,24 @@
 import React from "react";
 import image3 from "../../images/welding-13.jpg";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Section4() {
+  const { t } = useTranslation();
+
   return (
     <section className="font-theme-text theme-gold text-start font-roboto py-10 px-5 text-secondary-color">
       <div className="max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto px-4 lg:px-5">
         <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-x-5">
           <div>
             <div className="ps-1 text-md py-1 text-secondary-color [&_strong]:font-semibold">
-              <p className="uppercase">Welding Mastery</p>
+              <p className="uppercase">{t("section4.title")}</p>
             </div>
             <div className="font-theme-title theme-gold text-secondary-marked [&_strong]:font-semibold pt-3 pb-5 text-4xl lg:text-5xl">
-              <p>Elevating Digital Design to New Heights of Innovation</p>
+              <p>{t("section4.subtitle")}</p>
             </div>
             <div className="text-md lg:text-[18px] text-secondary-muted [&_strong]:font-semibold max-w-[500px]">
-              <p>
-                Where creativity meets technology to redefine online experiences
-                with precision and innovation
-              </p>
+              <p>{t("section4.description")}</p>
             </div>
             <div className="flex uppercase theme-gold items-center flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-3 pt-5">
               <Link
@@ -26,7 +26,7 @@ function Section4() {
                 to="/contact"
               >
                 <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:border-b-2 border-transparent group-hover/btn:border-secondary-text">
-                  Contact Us
+                  {t("section4.buttons.contactUs")}
                 </span>
                 <svg
                   className="size-3 ms-1 hidden group-[.secondary-link-btn]/btn:inline-block"
@@ -63,7 +63,7 @@ function Section4() {
                 </svg>
 
                 <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:border-b-2 border-transparent group-hover/btn:border-secondary-text">
-                  Make a Call
+                  {t("section4.buttons.makeACall")}
                 </span>
                 <svg
                   className="size-3 ms-1 hidden group-[.secondary-link-btn]/btn:inline-block"
@@ -110,7 +110,7 @@ function Section4() {
                   </g>
                 </svg>
                 <div className="text-md text-secondary-marked [&_strong]:font-semibold">
-                  <p>User Friendly</p>
+                  <p>{t("section4.features.userFriendly")}</p>
                 </div>
               </div>
               <div className="flex justify-center items-center space-x-1 lg:space-x-2 ">
@@ -141,7 +141,7 @@ function Section4() {
                   </g>
                 </svg>
                 <div className="text-md text-secondary-marked [&_strong]:font-semibold">
-                  <p>Collaborative</p>
+                  <p>{t("section4.features.collaborative")}</p>
                 </div>
               </div>
               <div className="flex justify-center items-center space-x-1 lg:space-x-2 ">
@@ -172,7 +172,7 @@ function Section4() {
                   </g>
                 </svg>
                 <div className="text-md text-secondary-marked [&_strong]:font-semibold">
-                  <p>Higher Quality</p>
+                  <p>{t("section4.features.precisionDriven")}</p>
                 </div>
               </div>
             </div>

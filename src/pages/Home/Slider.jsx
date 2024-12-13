@@ -13,8 +13,10 @@ import slider5 from "../../images/home/mini-slider/slider5.webp";
 import slider6 from "../../images/home/mini-slider/slider6.webp";
 import slider7 from "../../images/home/mini-slider/slider7.webp";
 import slider8 from "../../images/home/mini-slider/slider8.webp";
+import { useTranslation } from "react-i18next";
 
 function Slider() {
+  const { t } = useTranslation();
   const showImage = (e) => {
     const image = e.currentTarget.querySelector("img");
     const instance = basicLightbox.create(image.outerHTML);
@@ -29,18 +31,18 @@ function Slider() {
       <div className="max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto px-4 lg:px-5">
         <div className="flex flex-wrap items-center gap-3">
           <div className="bg-secondary-color [&_strong]:font-semibold text-xs flex items-center px-3.5 py-1 border border-secondary-color/50 rounded-md text-secondary-color">
-            <p>
-              <strong>NEW</strong>
+            <p className="uppercase">
+              <strong>{t("homeSlider.new")}</strong>
             </p>
           </div>
           <div className="font-theme-title text-secondary-marked [&_strong]:font-semibold text-xl md:text-3xl">
             <p>
-              <strong>Iron Doors</strong>
+              <strong>{t("homeSlider.title")}</strong>
             </p>
           </div>
         </div>
         <div className="text-secondary-muted [&_strong]:font-semibold max-w-2xl text-md md:text-lg pt-4">
-          <p>Strength, Security, and Timeless Elegance </p>
+          <p>{t("homeSlider.subtitle")}</p>
         </div>
         <div>
           <div className="w-full flex justify-end items-center top-0 md:right-0 mt-5 sm:mt-0 mb-6">

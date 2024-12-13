@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import image1 from "./images/about/welding2.jpg";
 import { jarallax } from "jarallax";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Header() {
   useEffect(() => {
@@ -9,6 +10,8 @@ function Header() {
       speed: 0.2,
     });
   }, []);
+
+  const { t } = useTranslation();
 
   return (
     <section
@@ -28,17 +31,16 @@ function Header() {
                 <div className="max-w-xl lg:max-w-3xl">
                   <div>
                     <div className="ps-1 font-theme-title [&_strong]:font-semibold text-md py-1.5 text-secondary-white">
-                      <p>Welding Art</p>
+                      <p>{t("aboutHeader.label")}</p>
                     </div>
                     <div className="font-theme-title [&_strong]:font-semibold text-secondary-white pt-3 text-4xl md:text-5xl">
-                      <p>ABOUT PÄK USSA</p>
+                      <p>{t("aboutHeader.title")}</p>
                     </div>
                   </div>
                   <div className="mt-3">
                     <div className="text-base lg:text-lg text-secondary-white [&_strong]:font-semibold">
                       <p className="max-w-[420px]">
-                        Discover the Future of Welding Through Skillful
-                        Precision and Cutting-Edge Innovation{" "}
+                        {t("aboutHeader.subtitle")}
                       </p>
                     </div>
                   </div>
@@ -48,7 +50,7 @@ function Header() {
                       to="/contact"
                     >
                       <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:text-secondary-white group-[.secondary-link-btn]/btn:border-b-2 group-[.secondary-link-btn]/btn:text-lg group-hover/btn:border-secondary-white font-semibold border-transparent group-hover/btn:border-secondary-text">
-                        Contact us
+                        {t("aboutHeader.link")}
                       </span>
                       <svg
                         className="size-3 ms-1 hidden group-[.secondary-link-btn]/btn:inline-block group-[.secondary-link-btn]/btn:text-secondary-white"
