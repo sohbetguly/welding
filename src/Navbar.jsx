@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
@@ -22,6 +23,12 @@ function Navbar() {
     }
   };
 
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang); // Change the current language
+  };
+
   const links = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
@@ -38,6 +45,9 @@ function Navbar() {
       id="navbar"
       className="px-5 sticky z-50 top-0 border-b border-b-secondary-color/50 bg-secondary-color text-secondary-color relative"
     >
+      <button onClick={() => changeLanguage("en")}>EN</button>
+      <button onClick={() => changeLanguage("tm")}>TM</button>
+
       <div className="flex items-center relative z-[9] px-4 py-3 lg:px-5 justify-between max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
         <Link href="/" className="text-inherit text-xl font-bold">
           Logo
