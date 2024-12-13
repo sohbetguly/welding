@@ -43,14 +43,10 @@ function Features() {
                 title: "Responsive Across Devices",
                 text: "Ensuring consistent, optimal experience across various devices and resolutions.",
               },
-              {
-                title: "Transform Your Vision",
-                text: "Bringing ideas to life with stunning visuals and unparalleled experiences.",
-              },
             ].map((feature, index) => (
               <li
                 key={index}
-                className="h-auto w-full bg-theme-card rounded-shape border border-theme-color/15 text-theme-color @2xl:w-[calc(50%-12px)] @3xl:w-[calc(33.333333333333336%-12px)] @5xl:w-[calc(25%-13px)] @7xl:w-[calc(20%-13px)]"
+                className="h-auto w-full bg-theme-card rounded-shape border border-theme-color/15 text-theme-color @2xl:w-[calc(50%-12px)] @5xl:w-[calc(25%-13px)]"
               >
                 <div className="flex flex-col p-6 h-full">
                   <div className="mt-2 mb-4 space-y-3">

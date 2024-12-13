@@ -27,7 +27,6 @@ function Sections() {
       <section
         data-controller="jarallax"
         data-jarallax
-        data-speed="0.2"
         className="theme-gold jarallax font-theme-text text-secondary-gray"
       >
         <div className="h-96"></div>
