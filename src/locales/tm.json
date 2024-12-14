@@ -1,15 +1,15 @@
 {
-  "main_heading": "Güýçli we Stildäki Metal İşleri",
+  "main_heading": "Güýçli we Stildäki Demir İşleri",
   "sub_heading": "Size Höwür Halan Ýokary Hilde Demir Önümleri",
   "cta_button": "Hyzmatlarymyz",
   "section3": {
-    "category": "Metallişler",
+    "category": "Demir işleri",
     "heading": "Takyklygy Ýokary Kebşirleme Hyzmatlary",
-    "description": "Çylşyrymly metal işläp düzmekde giň tejribe bilen, takyk we uzak möhletli netije üçin dürli kebşirleme tehnikalarynda kämilleşdirilen."
+    "description": "Çylşyrymly demir işläp düzmekde giň tejribe bilen, takyk we uzak möhletli netije üçin dürli kebşirleme tehnikalarynda kämilleşdirilen."
   },
   "features": {
-    "main_title": "Ussat Metal İşleri",
-    "main_subtitle": "Päk Ussa-da, ýokary hilli, size ýöriteleşdirilen metal işleriniň çözgütlerini hödürleýäris, adaty ussatlygy innowasion dizaýn bilen birleşdirip, çydamlylygy we gözelligi üpjün edýäris.",
+    "main_title": "Ussat Demir İşleri",
+    "main_subtitle": "Päk Ussa-da, ýokary hilli, size ýöriteleşdirilen demir işleriniň çözgütlerini hödürleýäris, adaty ussatlygy innowasion dizaýn bilen birleşdirip, çydamlylygy we gözelligi üpjün edýäris.",
     "items": [
       {
         "title": "Ussatlykly Işleşik",
@@ -49,10 +49,10 @@
 
   "testimonial": {
     "ahmet": {
-      "text": "Päk Ussa, açyk meýdanymyzy ajaýyp demir derrew önümler we özboluşly metal mebeller bilen täzeläp berdi. Olar jüklemegiňize we ussalyk işlerine ünsli garaýyşlary bilen öňde bolmadyk netije berdi. Olar hyzmatlaryny berk maslahat berýärin!"
+      "text": "Päk Ussa, açyk meýdanymyzy ajaýyp demir derrew önümler we özboluşly mebeller bilen täzeläp berdi. Olar jüklemegiňize we ussalyk işlerine ünsli garaýyşlary bilen öňde bolmadyk netije berdi. Olar hyzmatlaryny berk maslahat berýärin!"
     },
     "elif": {
-      "text": "Päk Ussa topary ägirt uly! Ilkinji maslahatdan soňky gurama çenli, olar hünär taýdan maslahat berip, mebel işlemek üçin aýratyn metal önümler döretdiler, olar biziň isleglerimize doly laýyk geldi. Netijelerimizden has yzygiderli hoşal!"
+      "text": "Päk Ussa topary ägirt uly! Ilkinji maslahatdan soňky gurama çenli, olar hünär taýdan maslahat berip, mebel işlemek üçin aýratyn demir önümler döretdiler, olar biziň isleglerimize doly laýyk geldi. Netijelerimizden has yzygiderli hoşal!"
     },
     "murat": {
       "text": "Päk Ussa bilen işleşmek ajaýyp tejribe boldy. Olar işjeňlikde we özboluşly dizaýnlarda takyklyklarymyzdan peýdalanyp, meýilnamalarymyzy durmuşa geçirdiler. Olar üpjün edýän önümleriň hil we durnuklylygy deňi-taýy bolmaýan ýokary hilli. Hakyky ussatlar!"
@@ -71,8 +71,8 @@
   },
   "aboutContent": {
     "title": "Sungat we hil mirasy",
-    "text1": "Päk Ussa-da biz köpýyllyk tejribe bilen takyklyga uly jogapkärçilik bilen ýakynlaşýarys, aýratyn suwarlyk we metal işlemek hyzmatlaryny hödürleýäris. Uzak ömri we estetiki taýdan jozaply demir gurluşlary döretmäge bolan söýgi bilen esaslandyrylan bu işimiz, iň ýokary senagat standartlaryna laýyk işçilikde abraý gazandy.",
-    "text2": "Biziň ýolumyz bir sadäni maksada ýetirmek bilen başlady: regionda ýaşaýyş we komerçi müşderiler üçin ýokary hilli, ýörite metaldan ýasalan önümleri hödürlemek. Häzirki wagtda biz tradision tapşanlardan, döwrebap demir gapylara, demir awtoulag örtüklerine we ýörite düzülýän nahar stollaryna çenli metal işlemek hyzmatlarynyň giň gerimini hödürlemek bilen guwanýarys. Funksional elementler, bezeg elementleri ýa-da bu ikisini birleşdirmek isleseňiz, biziň hünärmen toparymyz taslamaňyzy durmuşa geçirmek üçin tejribe we garaýyşlara eýe.",
+    "text1": "Päk Ussa-da biz köpýyllyk tejribe bilen takyklyga uly jogapkärçilik bilen ýakynlaşýarys, aýratyn suwarlyk we demir iş hyzmatlaryny hödürleýäris. Uzak ömri we estetiki taýdan jogaply demir gurluşlary döretmäge bolan söýgi bilen esaslandyrylan bu işimiz, iň ýokary senagat standartlaryna laýyk işçilikde abraý gazandy.",
+    "text2": "Biziň ýolumyz bir sadäni maksada ýetirmek bilen başlady: regionda ýaşaýyş we komerçi müşderiler üçin ýokary hilli, ýörite metaldan ýasalan önümleri hödürlemek. Häzirki wagtda biz tradision tapşanlardan, döwrebap demir gapylara, demir awtoulag örtüklerine we ýörite düzülýän nahar stollaryna çenli demir iş hyzmatlarynyň giň gerimini hödürlemek bilen guwanýarys. Funksional elementler, bezeg elementleri ýa-da bu ikisini birleşdirmek isleseňiz, biziň hünärmen toparymyz taslamaňyzy durmuşa geçirmek üçin tejribe we garaýyşlara eýe.",
     "listMainTitle": "Näme üçin Päk Ussa saýlamaly?",
     "listTitle1": "Usta işçilik:",
     "listText1": "Toparymyz ýokary derejeli suwarlary we metaldan işlemek ukyplaryna eýe bolup, her taslamada jikme-jiklige we sungata uly üns berýär.",
@@ -93,5 +93,62 @@
     "address": "123 Ironworks Lane, Cherry Hill, NJ 08002",
     "workingHoursTitle": "Iş wagty",
     "workingHours": "Duşenbe – Şenbe, 8:00 – 18:00"
+  },
+  "services": {
+    "header": {
+      "title": "Suwarçylyk Sungatlarymyz",
+      "subtitle": "Demir işleriňizi durmuşa geçirýäris",
+      "link": "Habarlaşyň"
+    },
+    "offer": {
+      "title": "Päk Ussa hyzmatlary",
+      "subtitle": "demir gapylardan başlap çeper demir önümlerine çenli islegleriňize laýyk hyzmatlar.",
+      "features": {
+        "title1": "Aýratyn Demir Öndürimler",
+        "subtitle1": "Biz aýratyn demir önümleriniň döredilmeginde ýöriteleşýäris, çylşyrymly gapylardan durnukly mebellere çenli. Öndürilen her bir önüm siziň talaplaryňyza laýyklykda taýýarlanylýar we ajaýyplyk bilen ulanylyş rahatlygyny birleşdirýär.",
+        "title2": "Öý we Kärhana Çözgütleri",
+        "subtitle2": "Öý ýa-da kärhana üçin ýokary hilli demir önümlerini hödürleýäris. Tapçanlardan demir gapylara we awtoulag penalaryna çenli, biziň dizaýnlarymyz çeperligi we ulanylyş rahatlygyny birleşdirýär."
+      }
+    },
+    "header2": {
+      "label": "Aýratyn Demir Gapylaryň Ýasalyşy",
+      "title": "Howpsuz, Durnukly we Gözel Dizaýn",
+      "subtitle": "Aýratyn demir gapylarymyz howpsuzlygy we owadanlygy birleşdirýär, goragy hem-de estetiki lezzeti hödürleýär. Her bir gapy siziň islegleriňize laýyk taýýarlanyp, uzak wagtlap hyzmat eder ýaly dizaýn edilýär."
+    },
+    "features2": {
+      "title": "Näme üçin Päk Ussa?",
+      "subtitle": "Tejribämizi we borjumyzy görkezýän sanlar",
+      "featureTilte1": "Tamamlanan Taslamalar",
+      "featureTilte2": "Müşderi Kanagatlanmasy",
+      "featureTilte3": "Hyzmat Goldawy",
+      "featureTilte4": "Bagyşlanan Ýyllar"
+    }
+  },
+  "ourWork": {
+    "title": "Eden Işlerimiz",
+    "subtitle": "Takyklyk we höwes bilen demir önümlerini döretmek"
+  },
+  "contact": {
+    "title": "Biziň bilen Habarlaşyň",
+    "subtitle": "Biz siziň demir işleriňiz üçin kömek bermäge taýýar",
+    "name": "Adyňyz",
+    "email": "Email",
+    "message": "Hatyňyzy gysgaça beýan ediň",
+    "button": "Ugrat"
+  },
+  "navbar": {
+    "navItem1": "Baş sahypa",
+    "navItem2": "Biz barada",
+    "navItem3": "Hyzmatlar",
+    "navItem4": "Eden Işlerimiz",
+    "navItem5": "Habarlaşyň"
+  },
+  "footer": {
+    "pages": "Sahypalar",
+    "addressTitle": "Address",
+    "address": "135/1 Jaý, Balkanabat şäheriniň Gorogly köçesinde ýerleşýär.",
+    "contact": "Habarlaşmak",
+    "email": "E-poçta",
+    "phone": "Telefon"
   }
 }

@@ -92,5 +92,62 @@
     "address": "123 Ironworks Lane, Cherry Hill, NJ 08002",
     "workingHoursTitle": "Working Hours",
     "workingHours": "Monday – Saturday, 8:00 AM – 6:00 PM"
+  },
+  "services": {
+    "header": {
+      "title": "Our Welding Masterpieces",
+      "subtitle": "Bringing Your Metalwork Visions to Life",
+      "link": "Contact"
+    },
+    "offer": {
+      "title": "At Päk Ussa, we offer",
+      "subtitle": "a range of welding and metalwork services designed to meet your needs, from custom gates to artistic iron pieces.",
+      "features": {
+        "title1": "Custom Iron Creations",
+        "subtitle1": "We specialize in crafting custom iron products, from intricate gates to durable furniture. Our expert team tailors each piece to your exact specifications, combining beauty and functionality to meet your unique vision",
+        "title2": "Residential & Commercial Solutions",
+        "subtitle2": "Whether for home or business, we provide top-quality metalwork solutions. From tapchans to iron doors and carports, our designs blend practicality with artistry, ensuring long-lasting, durable installations for any environment."
+      }
+    },
+    "header2": {
+      "label": "Custom Iron Gate Craftsmanship",
+      "title": "Secure, Durable, and Beautifully Designed",
+      "subtitle": "Our custom iron gates combine security and elegance, offering both protection and aesthetic appeal. Each gate is handcrafted to match your style and needs, whether for residential or commercial spaces. Built to last, our gates are designed with precision, ensuring durability and weather resistance without compromising beauty."
+    },
+    "features2": {
+      "title": "Why Choose Päk Ussa?",
+      "subtitle": "Numbers That Define Our Expertise and Commitment",
+      "featureTilte1": "Projects Completed",
+      "featureTilte2": "Client Satisfaction",
+      "featureTilte3": "Service Support",
+      "featureTilte4": "Years of Dedication"
+    }
+  },
+  "ourWork": {
+    "title": "Our Work",
+    "subtitle": "Crafting Metal Masterpieces with Precision and Passion"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're Here to Help with All Your Metalwork Needs",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "button": "Send"
+  },
+  "navbar": {
+    "navItem1": "Home",
+    "navItem2": "About",
+    "navItem3": "Services",
+    "navItem4": "Our Work",
+    "navItem5": "Contact"
+  },
+  "footer": {
+    "pages": "Pages",
+    "addressTitle": "Address",
+    "address": "The address is 135/1 House, located on Gorogly Street in the vibrant city of Balkanabat, which is known for its rich history and cultural significance.",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone"
   }
 }

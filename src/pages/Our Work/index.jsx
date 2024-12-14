@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
 import * as basicLightbox from "basiclightbox";
 import "basiclightbox/dist/basicLightbox.min.css";
+import React from "react";
 
+import { useTranslation } from "react-i18next";
 import work1 from "../../images/services/pak ussa (1).jpg";
 import work2 from "../../images/services/pak ussa (10).jpg";
 import work3 from "../../images/services/pak ussa (22).jpg";
@@ -10,8 +11,10 @@ import work5 from "../../images/services/pak ussa (3).jpg";
 import work6 from "../../images/services/pak ussa (30).jpg";
 import work7 from "../../images/services/pak ussa (32).jpg";
 import work8 from "../../images/services/pak ussa (33).jpg";
-import work9 from "../../images/services/pak ussa (34).jpg";
-import work10 from "../../images/services/pak ussa (34).jpg";
+import {
+  default as work10,
+  default as work9,
+} from "../../images/services/pak ussa (34).jpg";
 import work11 from "../../images/services/pak ussa (35).jpg";
 import work12 from "../../images/services/pak ussa (38).jpg";
 import work13 from "../../images/services/pak ussa (39).jpg";
@@ -23,75 +26,75 @@ import work18 from "../../images/services/pak ussa (9).jpg";
 
 const images = [
   {
-    name: "",
+    name: "00",
     img: work1,
   },
   {
-    name: "",
+    name: "01",
     img: work2,
   },
   {
-    name: "",
+    name: "02",
     img: work3,
   },
   {
-    name: "",
+    name: "03",
     img: work4,
   },
   {
-    name: "",
+    name: "04",
     img: work5,
   },
   {
-    name: "",
+    name: "05",
     img: work6,
   },
   {
-    name: "",
+    name: "06",
     img: work7,
   },
   {
-    name: "",
+    name: "07",
     img: work8,
   },
   {
-    name: "",
+    name: "08",
     img: work9,
   },
   {
-    name: "",
+    name: "09",
     img: work10,
   },
   {
-    name: "",
+    name: "10",
     img: work11,
   },
   {
-    name: "",
+    name: "11",
     img: work12,
   },
   {
-    name: "",
+    name: "12",
     img: work13,
   },
   {
-    name: "",
+    name: "13",
     img: work14,
   },
   {
-    name: "",
+    name: "14",
     img: work15,
   },
   {
-    name: "",
+    name: "15",
     img: work16,
   },
   {
-    name: "",
+    name: "16",
     img: work17,
   },
   {
-    name: "",
+    name: "17",
     img: work18,
   },
 ];
@@ -103,6 +106,7 @@ const showImage = (e) => {
 };
 
 function Index() {
+  const { t } = useTranslation();
   return (
     <div>
       <section className="theme-gold font-default shape-rounded left theme-classes group/alignment px-9">
@@ -113,7 +117,9 @@ function Index() {
               animation-type=""
               animation-delay=""
             >
-              <h3 className="text-7xl text-secondary-marked">Our Work</h3>
+              <h3 className="text-7xl text-secondary-marked">
+                {t("ourWork.title")}
+              </h3>
             </div>
 
             <div
@@ -121,9 +127,7 @@ function Index() {
               animation-type=""
               animation-delay=""
             >
-              <p className="text-2xl">
-                Crafting Metal Masterpieces with Precision and Passion{" "}
-              </p>
+              <p className="text-2xl">{t("ourWork.subtitle")}</p>
             </div>
           </div>
 
@@ -142,7 +146,7 @@ function Index() {
                       src={img}
                     />
 
-                    <div className="ql-content-styles font-theme-label uppercase text-end pt-1 pe-3">
+                    <div className="ql-content-styles hidden font-theme-label uppercase text-end pt-1 pe-3">
                       <p>{name}</p>
                     </div>
                   </li>

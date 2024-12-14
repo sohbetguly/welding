@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderImage1 from "../../images/home/home.jpg";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function FirstSection() {
   const { t } = useTranslation();
@@ -32,14 +33,30 @@ function FirstSection() {
               </div>
 
               <div className="font-default shape-rounded font-theme-title medium-button animate-element group-[.center]/alignment:justify-center group-[.right]/alignment:justify-start rounded-shape flex gap-custom">
-                <a
-                  className="border mt-8 tertiary-regular-btn rounded-btn border-2 group/btn text-sm sm:text-base font-semibold uppercase py-2 px-4 duration-200 inline-flex items-center justify-center"
-                  href="/services"
-                >
-                  <span className="group-[.tertiary-link-btn]/btn:duration-200 leading-6 group-[.tertiary-link-btn]/btn:border-b-2 group-[.tertiary-link-btn]/btn:text-[16px] border-transparent group-hover/btn:border-tertiary-text">
-                    {t("cta_button")}
-                  </span>
-                </a>
+                <div className="flex flex-wrap sm:items-center">
+                  <Link
+                    className="secondary-link-btn mt-8 rounded-btn hover:[&amp;.secondary-outline-btn]:bg-secondary-btn-color [&amp;.secondary-outline-btn]:bg-secondary-white border me-4 text-center group/btn py-2 border-0 px-5 duration-300"
+                    to="/contact"
+                  >
+                    <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:text-secondary-white group-[.secondary-link-btn]/btn:border-b-2 group-[.secondary-link-btn]/btn:text-lg group-hover/btn:border-secondary-white font-semibold border-transparent group-hover/btn:border-secondary-text">
+                      {t("cta_button")}
+                    </span>
+                    <svg
+                      className="size-3 ms-1 hidden group-[.secondary-link-btn]/btn:inline-block group-[.secondary-link-btn]/btn:text-secondary-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="3"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                      ></path>
+                    </svg>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

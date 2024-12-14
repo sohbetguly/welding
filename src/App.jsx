@@ -1,6 +1,5 @@
 import "jarallax/dist/jarallax.min.css";
 import "./App.css";
-import "./buttons.js";
 import "swiper/swiper-bundle.css";
 
 import { Outlet } from "react-router-dom";

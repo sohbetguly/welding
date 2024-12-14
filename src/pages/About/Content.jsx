@@ -31,7 +31,7 @@ function Content() {
                 <p>
                   <span className="font-bold">
                     {t("aboutContent.listTitle2")}
-                  </span>
+                  </span>{" "}
                   {t("aboutContent.listText2")}
                 </p>
               </li>
@@ -39,7 +39,7 @@ function Content() {
                 <p>
                   <span className="font-bold">
                     {t("aboutContent.listTitle3")}
-                  </span>
+                  </span>{" "}
                   {t("aboutContent.listText3")}
                 </p>
               </li>
@@ -47,7 +47,7 @@ function Content() {
                 <p>
                   <span className="font-bold">
                     {t("aboutContent.listTitle4")}
-                  </span>
+                  </span>{" "}
                   {t("aboutContent.listText4")}
                 </p>
               </li>
@@ -55,7 +55,7 @@ function Content() {
                 <p>
                   <span className="font-bold">
                     {t("aboutContent.listTitle5")}
-                  </span>
+                  </span>{" "}
                   {t("aboutContent.listText5")}
                 </p>
               </li>

@@ -1,15 +1,18 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Feature() {
+  const { t } = useTranslation();
+
   return (
     <section className="theme-gold group/section font-theme-text px-5 bg-secondary-color [&_.theme-default]:bg-secondary-gray text-secondary-color">
       <div className="max-w-4xl lg:max-w-6xl xl:max-w-7xl py-14 mx-auto">
         <div className="mx-auto max-w-3xl text-center">
           <div className="font-theme-title text-3xl md:text-4xl text-secondary-marked [&__strong]:font-semibold [&__p]:mb-3">
-            <p>Why Choose Päk Ussa? </p>
+            <p>{t("services.features2.title")}</p>
           </div>
           <div className="text-lg md:text-xl text-secondary-color [&__strong]:font-semibold [&__p]:mb-8">
-            <p>Numbers That Define Our Expertise and Commitment</p>
+            <p>{t("services.features2.subtitle")}</p>
           </div>
         </div>
         <ul className="flex flex-wrap justify-center gap-4 px-4 lg:px-5">
@@ -19,7 +22,7 @@ function Feature() {
                 <p>1K+</p>
               </div>
               <div className="mb-0 leading-5 text-lg lg:text-lg [&__strong]:font-semibold">
-                <p>Projects Completed</p>
+                <p>{t("services.features2.featureTilte1")}</p>
               </div>
             </div>
           </li>
@@ -29,7 +32,7 @@ function Feature() {
                 <p>100%</p>
               </div>
               <div className="mb-0 leading-5 text-lg lg:text-lg [&__strong]:font-semibold">
-                <p>Client Satisfaction</p>
+                <p>{t("services.features2.featureTilte2")}</p>
               </div>
             </div>
           </li>
@@ -39,7 +42,7 @@ function Feature() {
                 <p>24/7</p>
               </div>
               <div className="mb-0 leading-5 text-lg lg:text-lg [&__strong]:font-semibold">
-                <p>Service Support</p>
+                <p>{t("services.features2.featureTilte3")}</p>
               </div>
             </div>
           </li>
@@ -49,7 +52,7 @@ function Feature() {
                 <p>10+</p>
               </div>
               <div className="mb-0 leading-5 text-lg lg:text-lg [&__strong]:font-semibold">
-                <p>Years of Dedication</p>
+                <p>{t("services.features2.featureTilte4")}</p>
               </div>
             </div>
           </li>

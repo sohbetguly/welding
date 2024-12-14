@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <section className="secondary-default font-default rounded-btn bg-secondary-color group/alignment px-9">
       <div className="max-width-md mx-auto padding-top-full padding-bottom-full">
@@ -11,7 +14,7 @@ function Contact() {
             className="animate-element ql-content-styles font-secondary-title margin-bottom"
           >
             <p className="text-6xl text-secondary-marked">
-              <strong>Get in Touch</strong>
+              <strong>{t("contact.title")}</strong>
             </p>
           </div>
           <div
@@ -19,21 +22,21 @@ function Contact() {
             animation-delay=""
             className="animate-element text-2xl ql-content-styles max-width-sm"
           >
-            <p>We're Here to Help with All Your Metalwork Needs </p>
+            <p>{t("contact.subtitle")}</p>
           </div>
         </div>
         <div className="flex items-center justify-center pt-8">
           <form className="flex flex-col h-full w-full max-width-xs" action="">
             <div className="flex flex-col gap-x-3">
               <input
-                placeholder="Name"
+                placeholder={t("contact.name")}
                 className="form-field w-full rounded-btn margin-bottom border border-gray-700/10 focus:border-gray-500 bg-secondary-white text-secondary-dark focus:ring-0 outline-none px-6 py-3 shadow-sm"
                 type="text"
                 name="form_submission[name]"
                 id="form_submission_name"
               />
               <input
-                placeholder="Email"
+                placeholder={t("contact.email")}
                 className="form-field w-full rounded-btn margin-bottom border border-gray-700/10 focus:border-gray-500 bg-secondary-white text-secondary-dark focus:ring-0 outline-none px-6 py-3 shadow-sm"
                 type="text"
                 name="form_submission[email]"
@@ -41,7 +44,7 @@ function Contact() {
               />
             </div>
             <textarea
-              placeholder="Message"
+              placeholder={t("contact.message")}
               className="form-field rounded-btn margin-bottom w-full border border-gray-700/10 focus:border-gray-500 bg-secondary-white text-secondary-dark !outline-none focus:ring-0 px-6 py-6 min-h-[150px]"
               name="form_submission[message]"
               id="form_submission_message"
@@ -57,9 +60,9 @@ function Contact() {
               data-action="subscriber#checkForm"
               type="submit"
               id="submit-button"
-              className="flex justify-center rounded-btn text-secondary-btn-color bg-secondary-btn-color hover:bg-secondary-btn-color/90 cursor-pointer duration-300 mt-4 text-center inline-block w-full py-3 px-6"
+              className="flex uppercase justify-center rounded-btn text-secondary-btn-color bg-secondary-btn-color hover:bg-secondary-btn-color/90 cursor-pointer duration-300 mt-4 text-center inline-block w-full py-3 px-6"
             >
-              Send Message
+              {t("contact.button")}
             </button>
           </form>
         </div>

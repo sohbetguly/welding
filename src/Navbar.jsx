@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
+import Lang from "./Lang";
 
 function Navbar() {
   const navbarTogglerOne = (e) => {
@@ -23,18 +24,14 @@ function Navbar() {
     }
   };
 
-  const { i18n } = useTranslation();
-
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang); // Change the current language
-  };
+  const { t } = useTranslation();
 
   const links = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Services", link: "/services" },
-    { name: "Our Work", link: "/our-work" },
-    { name: "Contact", link: "/contact" },
+    { name: t("navbar.navItem1"), link: "/" },
+    { name: t("navbar.navItem2"), link: "/about" },
+    { name: t("navbar.navItem3"), link: "/services" },
+    { name: t("navbar.navItem4"), link: "/our-work" },
+    { name: t("navbar.navItem5"), link: "/contact" },
   ];
 
   const { pathname } = useLocation();
@@ -73,26 +70,8 @@ function Navbar() {
           })}
         </ul>
         <div className="flex">
-          <div className="flex gap-x-2 me-4">
-            <button
-              className={i18n.language === "en" ? "font-bold" : ""}
-              onClick={() => changeLanguage("en")}
-            >
-              EN
-            </button>
-            <button
-              className={i18n.language === "tm" ? "font-bold" : ""}
-              onClick={() => changeLanguage("tm")}
-            >
-              TM
-            </button>
-            <button
-              className={i18n.language === "ru" ? "font-bold" : ""}
-              onClick={() => changeLanguage("ru")}
-            >
-              RU
-            </button>
-          </div>
+          <Lang />
+
           <div className="hidden md:flex items-center space-x-3">
             <Link
               className="secondary-outline-btn text-nowrap rounded-btn duration-300 text-bold [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-1"
