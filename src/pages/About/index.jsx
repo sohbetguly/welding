@@ -13,7 +13,7 @@ function About() {
 
       <section className="theme-gold font-default shape-rounded center theme-classes group/alignment px-9">
         <div className="max-width-4xl mx-auto padding-top-full padding-bottom-full">
-          <div className="animate-element ql-content-styles text-4xl uppercase text-secondary-marked margin-bottom font-theme-title text-alignment">
+          <div className="animate-element ql-content-styles text-4xl uppercase margin-bottom font-theme-title text-alignment">
             <p>{t("aboutInfo.title")}</p>
           </div>
 

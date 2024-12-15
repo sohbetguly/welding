@@ -46,6 +46,7 @@ function Header() {
                   </div>
                   <div className="flex flex-wrap sm:items-center">
                     <Link
+                      onClick={() => window.scrollTo(0, 0)}
                       className="secondary-link-btn mt-4 rounded-btn hover:[&.secondary-outline-btn]:bg-secondary-btn-color [&.secondary-outline-btn]:bg-secondary-white border me-4 text-center group/btn py-2 border-0 px-5 duration-300"
                       to="/contact"
                     >

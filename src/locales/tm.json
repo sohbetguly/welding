@@ -1,6 +1,6 @@
 {
-  "main_heading": "Güýçli we Stildäki Demir İşleri",
-  "sub_heading": "Size Höwür Halan Ýokary Hilde Demir Önümleri",
+  "main_heading": "Täze we Güýçli Kebşirleme Çözgütleri",
+  "sub_heading": "Özboluşly we Durnukly Demir Kebşirleme Hyzmatlary",
   "cta_button": "Hyzmatlarymyz",
   "section3": {
     "category": "Demir işleri",
@@ -34,7 +34,7 @@
     "subtitle": "Sanly Dizaýnda Täze Innowasiýa Derejelerine Galkynmak",
     "description": "Ynjalyk we innowasiýa bilen onlaýn tejribeleri täzeden kesgitleýän ýer",
     "buttons": {
-      "contactUs": "Habarlaşyň",
+      "contactUs": "Habarlaşmak",
       "makeACall": "Jaň Ediň"
     },
     "features": {
@@ -67,7 +67,7 @@
     "label": "Suwarçylyk sungaty",
     "title": "PÄK USSA HAKYNDA",
     "subtitle": "Usta takyklygy we öňdebaryjy innowasiýalar arkaly suwarlaryň geljegini keşf ediň",
-    "link": "Biz bilen aragatnaşyk sakla"
+    "link": "Habarlaşmak"
   },
   "aboutContent": {
     "title": "Sungat we hil mirasy",
@@ -96,7 +96,7 @@
   },
   "services": {
     "header": {
-      "title": "Suwarçylyk Sungatlarymyz",
+      "title": "Hyzmatlarymyz",
       "subtitle": "Demir işleriňizi durmuşa geçirýäris",
       "link": "Habarlaşyň"
     },
@@ -125,12 +125,12 @@
     }
   },
   "ourWork": {
-    "title": "Eden Işlerimiz",
+    "title": "Taslamalar",
     "subtitle": "Takyklyk we höwes bilen demir önümlerini döretmek"
   },
   "contact": {
-    "title": "Biziň bilen Habarlaşyň",
-    "subtitle": "Biz siziň demir işleriňiz üçin kömek bermäge taýýar",
+    "title": "Habarlaşmak",
+    "subtitle": "Soragyňyz, Teklipleriňiz ýa-da Arzalaryňyz üçin Bize Habar Beriň",
     "name": "Adyňyz",
     "email": "Email",
     "message": "Hatyňyzy gysgaça beýan ediň",
@@ -140,8 +140,8 @@
     "navItem1": "Baş sahypa",
     "navItem2": "Biz barada",
     "navItem3": "Hyzmatlar",
-    "navItem4": "Eden Işlerimiz",
-    "navItem5": "Habarlaşyň"
+    "navItem4": "Taslamalar",
+    "navItem5": "Habarlaşmak"
   },
   "footer": {
     "pages": "Sahypalar",

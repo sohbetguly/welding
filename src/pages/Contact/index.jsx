@@ -7,20 +7,20 @@ function Contact() {
   return (
     <section className="secondary-default font-default rounded-btn bg-secondary-color group/alignment px-9">
       <div className="max-width-md mx-auto padding-top-full padding-bottom-full">
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-col items-center mx-auto text-center">
           <div
             animation-type=""
             animation-delay=""
             className="animate-element ql-content-styles font-secondary-title margin-bottom"
           >
-            <p className="text-6xl text-secondary-marked">
+            <p className="text-4xl md:text-6xl text-secondary-marked">
               <strong>{t("contact.title")}</strong>
             </p>
           </div>
           <div
             animation-type=""
             animation-delay=""
-            className="animate-element text-2xl ql-content-styles max-width-sm"
+            className="animate-element max-w-xl text-2xl ql-content-styles max-width-sm"
           >
             <p>{t("contact.subtitle")}</p>
           </div>

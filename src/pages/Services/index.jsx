@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
 import { jarallax } from "jarallax";
-import image from "../../images/services/pak ussa (22).png";
-import image2 from "../../images/services/9314.jpg";
-import { Link } from "react-router-dom";
-import Feature from "../About/Feature";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import HeaderImage2 from "../../images/home/slider-2.webp";
+import image from "../../images/services/pak ussa (22).png";
+import Feature from "../About/Feature";
 
 function Services() {
   useEffect(() => {
@@ -24,7 +24,7 @@ function Services() {
       >
         <img
           className="animate-element jarallax-img absolute h-full w-full object-cover z-[-2]"
-          src={image2}
+          src={HeaderImage2}
           alt="welding"
         />
 
@@ -54,8 +54,8 @@ function Services() {
               animation-delay=""
               className="animate-element ql-content-styles only:m-0 last:m-0 margin-bottom font-theme-title duration-200"
             >
-              <h4 className="text-4xl uppercase text-secondary-marked">
-                <strong>{t("services.offer.title")}</strong>
+              <h4 className="text-4xl uppercase font-semibold">
+                {t("services.offer.title")}
               </h4>
             </div>
 
@@ -65,9 +65,7 @@ function Services() {
               className="animate-element margin-bottom only:mb-0 last:mb-0"
             >
               <div className="ql-content-styles max-w-2xl dynamic-font-size-md opacity-70 max-width-sm">
-                <p className="text-xl">
-                  <strong>{t("services.offer.subtitle")}</strong>
-                </p>
+                <p className="text-xl">{t("services.offer.subtitle")}</p>
               </div>
             </div>
 

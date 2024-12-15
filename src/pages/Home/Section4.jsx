@@ -22,6 +22,7 @@ function Section4() {
             </div>
             <div className="flex uppercase theme-gold items-center flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-3 pt-5">
               <Link
+                onClick={() => window.scrollTo(0, 0)}
                 className="btn-bouncing rounded-btn secondary-regular-btn  duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-3 px-6"
                 to="/contact"
               >

@@ -109,15 +109,15 @@ function Index() {
   const { t } = useTranslation();
   return (
     <div>
-      <section className="theme-gold font-default shape-rounded left theme-classes group/alignment px-9">
+      <section className="theme-gold font-default shape-rounded left theme-classes group/alignment px-9 overflow-hidden">
         <div className="max-width-md padding-top-full padding-bottom-zero mx-auto">
-          <div className="flex flex-col text-alignment">
+          <div className="flex flex-col text-alignment mb-6">
             <div
               className="animate-element ql-content-styles margin-bottom font-theme-title"
               animation-type=""
               animation-delay=""
             >
-              <h3 className="text-7xl text-secondary-marked">
+              <h3 className="text-5xl md:text-7xl text-secondary-marked">
                 {t("ourWork.title")}
               </h3>
             </div>

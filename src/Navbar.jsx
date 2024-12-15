@@ -43,7 +43,11 @@ function Navbar() {
       className="px-5 sticky z-50 top-0 border-b border-b-secondary-color/50 bg-secondary-color text-secondary-color relative"
     >
       <div className="flex items-center relative z-[9] px-4 py-3 lg:px-5 justify-between max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
-        <Link href="/" className="text-inherit text-xl font-bold">
+        <Link
+          onClick={() => window.scrollTo(0, 0)}
+          href="/"
+          className="text-inherit text-xl font-bold"
+        >
           Logo
         </Link>
         <ul className="hidden flex-wrap lg:flex justify-start items-center flex-1 px-6">
@@ -74,6 +78,7 @@ function Navbar() {
 
           <div className="hidden md:flex items-center space-x-3">
             <Link
+              onClick={() => window.scrollTo(0, 0)}
               className="secondary-outline-btn text-nowrap rounded-btn duration-300 text-bold [&.secondary-link-btn]:font-semibold [&.secondary-link-btn]:text-[15px] group/btn border px-4 py-1"
               to="tel:+99361616161"
             >
