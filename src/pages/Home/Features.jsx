@@ -13,7 +13,7 @@ function Features() {
       <div className="custom-max-width padding-top-full padding-bottom-full mx-auto">
         <div className="@container max-w-7xl custom-width @container count-feature-4 margin-alignment mx-auto">
           <div className="max-w-2xl title-alignment px-2">
-            <div className="animate-element text-4xl ql-content-styles margin-bottom font-theme-title">
+            <div className="animate-element text-3xl md:text-4xl ql-content-styles margin-bottom font-theme-title">
               <p>{t("features.main_title")}</p>
             </div>
             <div className="animate-element opacity-80 ql-content-styles margin-bottom margin-alignment">
