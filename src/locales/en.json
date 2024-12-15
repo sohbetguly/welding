@@ -133,7 +133,12 @@
     "name": "Name",
     "email": "Email",
     "message": "Message",
-    "button": "Send"
+    "button": "Send",
+    "sending": "Sending",
+    "success": "Success",
+    "errors": {
+      "emailService": "Email Service Error"
+    }
   },
   "navbar": {
     "navItem1": "Home",

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@splidejs/react-splide": "^0.7.12",
     "@tailwindcss/container-queries": "^0.1.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "accordion-js": "^3.3.4",
     "basiclightbox": "^5.0.4",
+    "emailjs-com": "^3.2.0",
     "i18next": "^24.1.0",
     "i18next-browser-languagedetector": "^8.0.2",
     "jarallax": "^2.2.1",
