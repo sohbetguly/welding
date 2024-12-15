@@ -69,8 +69,8 @@ function About() {
               </div>
               <div>
                 <div className="ql-content-styles xs-dynamic-fs-md max-w-sm opacity-70">
-                  <a className="" href="mailto:info@pakussa.com">
-                    info@pakussa.com
+                  <a className="" href="mailto:pakussa@sanly.tm">
+                    pakussa@sanly.tm
                   </a>
                 </div>
               </div>

@@ -23,11 +23,11 @@ function FirstSection() {
           <div className="max-w-7xl custom-width mx-auto">
             <div className="max-w-2xl">
               <div className="margin-bottom-heading">
-                <div className="animate-element uppercase text-5xl ql-content-styles text-theme-on-image font-theme-title group-[.center]/alignment:text-center group-[.right]/alignment:text-start margin-bottom">
+                <div className="animate-element uppercase text-3xl md:text-5xl ql-content-styles text-theme-on-image font-theme-title group-[.center]/alignment:text-center group-[.right]/alignment:text-start margin-bottom">
                   <p>{t("main_heading")}</p>
                 </div>
 
-                <div className="animate-element text-2xl ql-content-styles text-theme-on-image group-[.center]/alignment:text-center group-[.right]/alignment:text-start">
+                <div className="animate-element text-xl md:text-2xl ql-content-styles text-theme-on-image group-[.center]/alignment:text-center group-[.right]/alignment:text-start">
                   <p>{t("sub_heading")}</p>
                 </div>
               </div>

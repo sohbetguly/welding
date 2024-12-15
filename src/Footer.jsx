@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const { t } = useTranslation();
@@ -26,12 +27,13 @@ function Footer() {
               {items.map((item) => {
                 return (
                   <li key={item.link}>
-                    <a
+                    <Link
+                      onClick={() => window.scrollTo(0, 0)}
                       className="text-secondary-link hover:text-secondary-link-hover duration-200"
-                      href={item.link}
+                      to={item.link}
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}
@@ -83,7 +85,7 @@ function Footer() {
                   />
                 </svg>
                 {t("footer.email")}:{" "}
-                <a href="mailto:test@gmail.com">test@gmail.com</a>
+                <a href="mailto:pakussa@sanly.tm">pakussa@sanly.tm</a>
               </div>
               <div>
                 <svg
