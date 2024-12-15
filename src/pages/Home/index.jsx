@@ -16,7 +16,7 @@ function Sections() {
   }, []);
 
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* <SliderHome /> */}
       <FirstSection />
       <Features />
