@@ -64,7 +64,7 @@ function Contact() {
   };
 
   // Function to send email
-  const sendEmail = () => {
+  const sendEmail = async () => {
     setIsSending(true);
 
     const templateParams = {
@@ -74,26 +74,16 @@ function Contact() {
     };
 
     emailjs
-      // .send(
-      //   "service_guraioe", // Replace with your EmailJS service ID
-      //   "template_vnh0z7i", // Replace with your EmailJS template ID
-      //   templateParams,
-      //   "lLZtlDcBnuVVSVyE7" // Replace with your EmailJS public key
-      // )
-      .sendForm(
-        "service_guraioe",
-        "template_vnh0z7i",
-        templateParams,
-        "lLZtlDcBnuVVSVyE7"
-      )
+      .send("service_guraioe", "template_2ra5xia", templateParams)
 
       .then(
-        (response) => {
+        () => {
           setIsSending(false);
           setSuccessMessage(t("contact.success"));
           setFormData({ name: "", email: "", message: "" });
         },
-        (error) => {
+        (err) => {
+          console.error(err);
           setIsSending(false);
           alert(t("contact.errors.emailService"));
         }

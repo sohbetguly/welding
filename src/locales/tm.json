@@ -1,5 +1,5 @@
 {
-  "main_heading": "Täze we Güýçli Kebşirleme Çözgütleri",
+  "main_heading": "Täze we Güýçli Kebşirleme Hyzmatlary",
   "sub_heading": "Özboluşly we Durnukly Demir Kebşirleme Hyzmatlary",
   "cta_button": "Hyzmatlarymyz",
   "section3": {
@@ -134,7 +134,12 @@
     "name": "Adyňyz",
     "email": "Email",
     "message": "Hatyňyzy gysgaça beýan ediň",
-    "button": "Ugrat"
+    "button": "Ugrat",
+    "sending": "Ugradylýar",
+    "success": "Üstünlik",
+    "errors": {
+      "emailService": "Elektron poçta hyzmaty ýalňyşlygy"
+    }
   },
   "navbar": {
     "navItem1": "Baş sahypa",
