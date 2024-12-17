@@ -37,11 +37,28 @@ function Services() {
             <div className="animate-element ql-content-styles text-2xl text-secondary-on-image max-width-sm margin-bottom margin-alignment">
               <p>{t("services.header.subtitle")}</p>
             </div>
+
             <Link
-              className="rounded-btn bg-secondary-white text-secondary-dark hover:bg-secondary-btn-color hover:text-secondary-btn-color text-xl border-transparent flex items-center justify-center duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-2 px-4"
+              className="secondary-link-btn mt-8 rounded-btn hove&;.secondary-outline-btn]:bg-secondary-btn-color [&.secondary-outline-btn]:bg-secondary-white border me-4 text-center group/btn py-2 border-0 px-5 duration-300"
               to="/contact"
             >
-              {t("services.header.link")}
+              <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:text-secondary-white group-[.secondary-link-btn]/btn:border-b-2 group-[.secondary-link-btn]/btn:text-lg group-hover/btn:border-secondary-white font-semibold border-transparent group-hover/btn:border-secondary-text">
+                {t("services.header.link")}
+              </span>
+              <svg
+                className="size-3 ms-1 hidden group-[.secondary-link-btn]/btn:inline-block group-[.secondary-link-btn]/btn:text-secondary-white"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="3"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                ></path>
+              </svg>
             </Link>
           </div>
         </div>

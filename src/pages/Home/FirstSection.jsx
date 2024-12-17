@@ -35,8 +35,8 @@ function FirstSection() {
               <div className="font-default shape-rounded font-theme-title medium-button animate-element group-[.center]/alignment:justify-center group-[.right]/alignment:justify-start rounded-shape flex gap-custom">
                 <div className="flex flex-wrap sm:items-center">
                   <Link
-                    className="secondary-link-btn mt-8 rounded-btn hover:[&amp;.secondary-outline-btn]:bg-secondary-btn-color [&amp;.secondary-outline-btn]:bg-secondary-white border me-4 text-center group/btn py-2 border-0 px-5 duration-300"
-                    to="/contact"
+                    className="secondary-link-btn mt-8 rounded-btn hove&;.secondary-outline-btn]:bg-secondary-btn-color [&.secondary-outline-btn]:bg-secondary-white border me-4 text-center group/btn py-2 border-0 px-5 duration-300"
+                    to="/services"
                   >
                     <span className="group-[.secondary-link-btn]/btn:duration-300 group-[.secondary-link-btn]/btn:text-secondary-white group-[.secondary-link-btn]/btn:border-b-2 group-[.secondary-link-btn]/btn:text-lg group-hover/btn:border-secondary-white font-semibold border-transparent group-hover/btn:border-secondary-text">
                       {t("cta_button")}
