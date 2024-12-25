@@ -46,7 +46,7 @@ function Section4() {
               </Link>
               <a
                 className="rounded-btn secondary-outline-btn flex items-center justify-center duration-300 group/btn border-2 font-semibold text-center inline-block w-full md:w-6/12 md:max-w-52 py-3 px-6"
-                href="tel:+99361616161"
+                href="tel:+99364177660"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

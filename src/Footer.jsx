@@ -103,7 +103,7 @@ function Footer() {
                   />
                 </svg>
                 {t("footer.phone")}:{" "}
-                <a href="tel:+99361616161">+993 61616161</a>
+                <a href="tel:+99364177660">+993 64177660</a>
               </div>
             </div>
           </div>
