@@ -60,7 +60,7 @@
   },
   "homeSlider": {
     "new": "Täze",
-    "title": "Demir gapylar",
+    "title": "",
     "subtitle": "Güýji, howpsuzlyk we hemişelik eleganlylyk"
   },
   "aboutHeader": {
@@ -90,7 +90,7 @@
     "phone": "Telefon",
     "email": "Elektron poçta",
     "addressTitle": "Adres",
-    "address": "123 Ironworks Lane, Cherry Hill, NJ 08002",
+    "address": "Balkan welaýaty, Balkanabat şäheriniň 160-njy ýaşaýyş jaý toplumy, 'Azap' hususy ofis jaýy.",
     "workingHoursTitle": "Iş wagty",
     "workingHours": "Duşenbe – Şenbe, 8:00 – 18:00"
   },
@@ -151,7 +151,7 @@
   "footer": {
     "pages": "Sahypalar",
     "addressTitle": "Address",
-    "address": "135/1 Jaý, Balkanabat şäheriniň Gorogly köçesinde ýerleşýär.",
+    "address": "Balkan welaýaty, Balkanabat şäheriniň 160-njy ýaşaýyş jaý toplumy, 'Azap' hususy ofis jaýy.",
     "contact": "Habarlaşmak",
     "email": "E-poçta",
     "phone": "Telefon"

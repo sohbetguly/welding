@@ -18,7 +18,7 @@ function About() {
           </div>
 
           <div className="animate-element" animation-type="" animation-delay="">
-            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0">
+            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0 items-center">
               <div className="ql-content-styles xs-dynamic-fs-md md:w-full max-w-24">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ function About() {
               </div>
             </div>
 
-            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0">
+            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0 items-center">
               <div className="ql-content-styles xs-dynamic-fs-md md:w-full max-w-24">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function About() {
               </div>
             </div>
 
-            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0">
+            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0 items-center">
               <div className="ql-content-styles xs-dynamic-fs-md md:w-full max-w-24">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0">
+            <div className="flex py-3 md:py-6 border-t border-theme-color gap-x-10 mr-0 items-center">
               <div className="ql-content-styles xs-dynamic-fs-md md:w-full max-w-24">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

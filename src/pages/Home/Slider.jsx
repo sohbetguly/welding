@@ -5,14 +5,37 @@ import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import slider1 from "../../images/home/mini-slider/slider1.webp";
-import slider2 from "../../images/home/mini-slider/slider2.webp";
-import slider3 from "../../images/home/mini-slider/slider3.webp";
-import slider4 from "../../images/home/mini-slider/slider4.webp";
-import slider5 from "../../images/home/mini-slider/slider5.webp";
-import slider6 from "../../images/home/mini-slider/slider6.webp";
-import slider7 from "../../images/home/mini-slider/slider7.webp";
-import slider8 from "../../images/home/mini-slider/slider8.webp";
+// import slider1 from "../../images/home/mini-slider/slider1.webp";
+// import slider2 from "../../images/home/mini-slider/slider2.webp";
+// import slider3 from "../../images/home/mini-slider/slider3.webp";
+// import slider4 from "../../images/home/mini-slider/slider4.webp";
+// import slider5 from "../../images/home/mini-slider/slider5.webp";
+// import slider6 from "../../images/home/mini-slider/slider6.webp";
+// import slider7 from "../../images/home/mini-slider/slider7.webp";
+// import slider8 from "../../images/home/mini-slider/slider8.webp";
+
+import slider10 from "../../images/home/mini-slider/pak ussa/slider10.jpg";
+import slider1 from "../../images/home/mini-slider/pak ussa/slider11.jpg";
+import slider2 from "../../images/home/mini-slider/pak ussa/slider12.jpg";
+import slider3 from "../../images/home/mini-slider/pak ussa/slider13.jpg";
+import slider4 from "../../images/home/mini-slider/pak ussa/slider14.jpg";
+import slider5 from "../../images/home/mini-slider/pak ussa/slider15.jpg";
+import slider6 from "../../images/home/mini-slider/pak ussa/slider16.jpg";
+import slider7 from "../../images/home/mini-slider/pak ussa/slider17.jpg";
+import slider8 from "../../images/home/mini-slider/pak ussa/slider18.jpg";
+import slider9 from "../../images/home/mini-slider/pak ussa/slider19.jpg";
+import slider11 from "../../images/home/mini-slider/pak ussa/slider20.jpg";
+import slider12 from "../../images/home/mini-slider/pak ussa/slider21.jpg";
+import slider13 from "../../images/home/mini-slider/pak ussa/slider22.jpg";
+import slider14 from "../../images/home/mini-slider/pak ussa/slider23.jpg";
+import slider15 from "../../images/home/mini-slider/pak ussa/slider28.jpg";
+import slider16 from "../../images/home/mini-slider/pak ussa/slider24.jpg";
+import slider17 from "../../images/home/mini-slider/pak ussa/slider25.jpg";
+import slider18 from "../../images/home/mini-slider/pak ussa/slider26.jpg";
+import slider19 from "../../images/home/mini-slider/pak ussa/slider27.jpg";
+import slider20 from "../../images/home/mini-slider/pak ussa/slider28.jpg";
+// import slider21 from "../../images/home/mini-slider/pak ussa/slider29.jpg";
+
 import { useTranslation } from "react-i18next";
 
 function Slider() {
@@ -104,12 +127,12 @@ function Slider() {
             }}
             autoplay={{
               delay: 1500,
-              disableOnInteraction: false,
+              // disableOnInteraction: false,
             }}
             slidesPerView={1}
             spaceBetween={20}
             loop={true}
-            speed={1000}
+            speed={800}
             modules={[Navigation, Autoplay]}
             className="mySwiper"
           >
@@ -120,7 +143,7 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover object-cover"
                   src={slider1}
                   alt=""
                 />
@@ -136,7 +159,7 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover"
                   src={slider2}
                   alt=""
                 />
@@ -152,7 +175,7 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover object-cover"
                   src={slider3}
                   alt=""
                 />
@@ -168,7 +191,7 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover"
                   src={slider4}
                   alt=""
                 />
@@ -184,7 +207,7 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover"
                   src={slider5}
                   alt=""
                 />
@@ -200,7 +223,7 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover"
                   src={slider6}
                   alt=""
                 />
@@ -216,7 +239,7 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover"
                   src={slider7}
                   alt=""
                 />
@@ -232,8 +255,216 @@ function Slider() {
               <div className="flex justify-center h-full">
                 <div className="absolute bottom-0 z-10 w-full h-full"></div>
                 <img
-                  className="h-full relative max-h-96"
+                  className="h-full relative max-h-96 object-cover"
                   src={slider8}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider9}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider20}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider19}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider18}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider17}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider16}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider15}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider14}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider13}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider9}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider10}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider11}
+                  alt=""
+                />
+                <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">
+                  Gapy 8
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              onClick={showImage}
+              className="h-auto overflow-hidden cursor-pointer"
+            >
+              <div className="flex justify-center h-full">
+                <div className="absolute bottom-0 z-10 w-full h-full"></div>
+                <img
+                  className="h-full relative max-h-96 object-cover"
+                  src={slider12}
                   alt=""
                 />
                 <p className="absolute bg-gray-900/60 inline-flex hidden items-center bottom-0 z-10 text-secondary-white rounded px-4 text-center font-semibold my-4">

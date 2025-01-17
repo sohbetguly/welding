@@ -1,6 +1,7 @@
 import { jarallax } from "jarallax";
 import React, { useEffect } from "react";
 import image from "../../images/home/home-1.webp";
+import image2 from "../../images/home/mini-slider/pak ussa/slider9.jpg";
 import Features from "./Features";
 import FirstSection from "./FirstSection";
 import Section3 from "./Section3";
@@ -20,6 +21,9 @@ function Sections() {
       {/* <SliderHome /> */}
       <FirstSection />
       <Features />
+      <section>
+        <img src={image2} alt="slider9" className="w-full h-[800px]" />
+      </section>
       <Section3 />
       <Section4 />
       <section
@@ -32,10 +36,11 @@ function Sections() {
           <img
             className="jarallax-img duration-200 group-hover/image:brightness-[.90] h-full mx-auto object-cover"
             src={image}
+            alt="images"
           />
         </div>
       </section>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Slider />
     </div>
   );

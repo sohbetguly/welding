@@ -16,8 +16,25 @@ function Footer() {
     <section className="theme-default border-t py-14 px-5 font-theme-text bg-secondary-color text-secondary-color">
       <div className="max-w-6xl mx-auto px-4 lg:px-5">
         <div className="flex flex-col sm:flex-row gap-x-6 gap-y-8">
-          <div className="min-w-[100px] md:w-[25%] text-3xl uppercase">
-            Logo
+          <div className="min-w-[100px] md:w-[25%] text-3xl uppercase shrink-0">
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#f65701"
+              className="w-[150px] -ms-10"
+              viewBox="0 0 841.89 595.28"
+            >
+              <g>
+                <polygon
+                  points="228.99,174.83 228.7,396.89 284.76,430.49 285.1,206.98 440.84,119.85 595.43,206.94 597.4,428.31 655,397.44 
+		651.68,171.01 444.96,51.32 	"
+                />
+                <polygon
+                  points="413.96,194.81 414.87,450.64 440.77,465.94 466.5,452.55 466.63,192.81 540.52,237.94 542.13,457.98 
+		440.59,517.86 338.7,458.63 340.67,237.82 	"
+                />
+              </g>
+            </svg>
           </div>
           <div className="hidden md:block w-[25%]">
             <div className="text-xl font-semibold mb-4">
@@ -43,14 +60,14 @@ function Footer() {
             <div className="text-xl font-semibold mb-4">
               {t("footer.addressTitle")}
             </div>
-            <div>
+            <div className="flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="size-5 me-1.5 inline-block"
+                className="size-5 me-1.5 mt-0.5 inline-block shrink-0"
               >
                 <path
                   strokeLinecap="round"
